@@ -1,0 +1,748 @@
+service,station,stop
+1 Train,Van Cortlandt Park-242,0
+1 Train,238 St,1
+1 Train,231 St,2
+1 Train,Marble Hill-225 St,3
+1 Train,215 St,4
+1 Train,207 St,5
+1 Train,Dyckman St,6
+1 Train,191 St,7
+1 Train,181 St,8
+1 Train,168 St,9
+1 Train,157 St,10
+1 Train,145 St,11
+1 Train,137 St-City College,12
+1 Train,125 St,13
+1 Train,116 St-Columbia University,14
+1 Train,Cathedral Pkwy (110 St),15
+1 Train,103 St,16
+1 Train,96 St,17
+1 Train,86 St,18
+1 Train,79 St,19
+1 Train,72 St,20
+1 Train,66 St-Lincoln Center,21
+1 Train,59 St-Columbus Circle,22
+1 Train,50 St,23
+1 Train,Times Sq-42 St,24
+1 Train,34 St-Penn Station,25
+1 Train,28 St,26
+1 Train,23 St,27
+1 Train,18 St,28
+1 Train,14 St,29
+1 Train,Christopher St-Stonewall,30
+1 Train,Houston St,31
+1 Train,Canal St,32
+1 Train,Franklin St,33
+1 Train,Chambers St,34
+1 Train,WTC Cortlandt,35
+1 Train,Rector St,36
+1 Train,South Ferry,37
+2 Train,Wakefield-241 St,0
+2 Train,Nereid Av,1
+2 Train,233 St,2
+2 Train,225 St,3
+2 Train,219 St,4
+2 Train,Gun Hill Rd,5
+2 Train,Burke Av,6
+2 Train,Allerton Av,7
+2 Train,Pelham Pkwy,8
+2 Train,Bronx Park East,9
+2 Train,E 180 St,10
+2 Train,West Farms Sq-E Tremont Av,11
+2 Train,174 St,12
+2 Train,Freeman St,13
+2 Train,Simpson St,14
+2 Train,Intervale Av,15
+2 Train,Prospect Av,16
+2 Train,Jackson Av,17
+2 Train,3 Av-149 St,18
+2 Train,149 St-Grand Concourse,19
+2 Train,135 St,20
+2 Train,125 St,21
+2 Train,116 St,22
+2 Train,Central Park North (110 St),23
+2 Train,96 St,24
+2 Train,72 St,25
+2 Train,Times Sq-42 St,26
+2 Train,34 St-Penn Station,27
+2 Train,14 St,28
+2 Train,Chambers St,29
+2 Train,Park Place,30
+2 Train,Fulton St,31
+2 Train,Wall St,32
+2 Train,Clark St,33
+2 Train,Borough Hall,34
+2 Train,Hoyt St,35
+2 Train,Nevins St,36
+2 Train,Atlantic Av-Barclays Ctr,37
+2 Train,Bergen St,38
+2 Train,Grand Army Plaza,39
+2 Train,Eastern Pkwy-Brooklyn Museum,40
+2 Train,Franklin Av-Medgar Evers College,41
+2 Train,President St-Medgar Evers College,42
+2 Train,Sterling St,43
+2 Train,Winthrop St,44
+2 Train,Church Av,45
+2 Train,Beverly Rd,46
+2 Train,Newkirk Av-Little Haiti,47
+2 Train,Flatbush Av-Brooklyn College,48
+3 Train,Harlem-148 St,0
+3 Train,145 St,1
+3 Train,135 St,2
+3 Train,125 St,3
+3 Train,116 St,4
+3 Train,Central Park North (110 St),5
+3 Train,96 St,6
+3 Train,72 St,7
+3 Train,Times Square-42 St,8
+3 Train,34 St-Penn Station,9
+3 Train,14 St,10
+3 Train,Chambers St,11
+3 Train,Park Place,12
+3 Train,Fulton St,13
+3 Train,Wall St,14
+3 Train,Clark St,15
+3 Train,Borough Hall,16
+3 Train,Hoyt St,17
+3 Train,Nevins St,18
+3 Train,Atlantic Av-Barclays Ctr,19
+3 Train,Bergen St,20
+3 Train,Grand Army Plaza,21
+3 Train,Eastern Parkway-Brooklyn Museum,22
+3 Train,Franklin Av-Medgar Evers College,23
+3 Train,Nostrand Av,24
+3 Train,Kingston Av,25
+3 Train,Crown Heights-Utica Av,26
+3 Train,Sutter Ave-Rutland Rd,27
+3 Train,Saratoga Av,28
+3 Train,Rockaway Av,29
+3 Train,Junius St,30
+3 Train,Pennsylvania Av,31
+3 Train,Van Siclen Av,32
+3 Train,New Lots Av,33
+4 Train,Woodlawn,0
+4 Train,Mosholu Pkwy,1
+4 Train,Bedford Pk Blvd-Lehman College,2
+4 Train,Kingsbridge Rd,3
+4 Train,Fordham Rd,4
+4 Train,183 St,5
+4 Train,Burnside Av,6
+4 Train,176 St,7
+4 Train,Mt Eden Av,8
+4 Train,170 St,9
+4 Train,167 St,10
+4 Train,161 St-Yankee Stadium,11
+4 Train,149 St-Grand Concourse,12
+4 Train,138 St-Grand Concourse,13
+4 Train,125 St,14
+4 Train,86 St,15
+4 Train,59 St,16
+4 Train,Grand Central-42 St,17
+4 Train,14 St-Union Sq,18
+4 Train,Brooklyn Bridge-City Hall,19
+4 Train,Fulton St,20
+4 Train,Wall St,21
+4 Train,Bowling Green,22
+4 Train,Borough Hall,23
+4 Train,Nevins St,24
+4 Train,Atlantic Av-Barclays Ctr,25
+4 Train,Franklin Av-Medgar Evers College,26
+4 Train,Crown Heights-Utica Av,27
+5 Train,Eastchester-Dyre Av,0
+5 Train,Baychester Av,1
+5 Train,Gun Hill Rd,2
+5 Train,Pelham Pkwy,3
+5 Train,Morris Park,4
+5 Train,E 180 St,5
+5 Train,West Farms Sq-E Tremont Av,6
+5 Train,174 St,7
+5 Train,Freeman St,8
+5 Train,Simpson St,9
+5 Train,Intervale Av,10
+5 Train,Prospect Av,11
+5 Train,Jackson Av,12
+5 Train,3 Av-149 St,13
+5 Train,149 St-Grand Concourse,14
+5 Train,138 St-Grand Concourse,15
+5 Train,125 St,16
+5 Train,86 St,17
+5 Train,59 St,18
+5 Train,Grand Central-42 St,19
+5 Train,14 St-Union Sq,20
+5 Train,Brooklyn Bridge-City Hall,21
+5 Train,Fulton St,22
+5 Train,Wall St,23
+5 Train,Bowling Green,24
+5 Train,Nereid Av,25
+5 Train,233 St,26
+5 Train,225 St,27
+5 Train,219 St,28
+5 Train,Gun Hill Rd,29
+5 Train,Burke Av,30
+5 Train,Allerton Av,31
+5 Train,Pelham Pkwy,32
+5 Train,Bronx Park East,33
+5 Train,Borough Hall,34
+5 Train,Nevins St,35
+5 Train,Atlantic Av-Barclays Ctr,36
+5 Train,Franklin Av-Medgar Evers College,37
+5 Train,President St-Medgar Evers College,38
+5 Train,Sterling St,39
+5 Train,Winthrop St,40
+5 Train,Church Av,41
+5 Train,Beverly Rd,42
+5 Train,Newkirk Av-Little Haiti,43
+5 Train,Flatbush Av-Brooklyn College,44
+6 Train,Pelham Bay Park,0
+6 Train,Buhre Av,1
+6 Train,Middletown Rd,2
+6 Train,Westchester Sq-East Tremont Av,3
+6 Train,Zerega Av,4
+6 Train,Castle Hill Av,5
+6 Train,Parkchester,6
+6 Train,St Lawrence Av,7
+6 Train,Morrison Av-Soundview,8
+6 Train,Elder Av,9
+6 Train,Whitlock Av,10
+6 Train,Hunts Point Av,11
+6 Train,Longwood Av,12
+6 Train,E 149 St,13
+6 Train,E 143 St-Mary's St,14
+6 Train,Cypress Av,15
+6 Train,Brook Av,16
+6 Train,3 Av-138 St,17
+6 Train,125 St,18
+6 Train,116 St,19
+6 Train,110 St,20
+6 Train,103 St,21
+6 Train,96 St,22
+6 Train,86 St,23
+6 Train,77 St,24
+6 Train,68 St-Hunter College,25
+6 Train,59 St,26
+6 Train,51 St,27
+6 Train,Grand Central-42 St,28
+6 Train,33 St,29
+6 Train,28 St,30
+6 Train,23 St,31
+6 Train,14 St-Union Sq,32
+6 Train,Astor Pl,33
+6 Train,Bleeker St,34
+6 Train,Spring St,35
+6 Train,Canal St,36
+6 Train,Brooklyn Bridge-City Hall,37
+7 Train,Flushing-Main St,0
+7 Train,Mets-Willets Point,1
+7 Train,111 St,2
+7 Train,103 St-Corona Plaza,3
+7 Train,Junction Blvd,4
+7 Train,90 St-Elmhurst Av,5
+7 Train,82 St-Jackson Hts,6
+7 Train,74 St-Broadway,7
+7 Train,69 St,8
+7 Train,61 St-Woodside,9
+7 Train,52 St,10
+7 Train,46 St-Bliss St,11
+7 Train,40 St-Lowery St,12
+7 Train,33 St-Rawson St,13
+7 Train,Queensboro Plaza,14
+7 Train,Court Sq,15
+7 Train,Hunters Point Av,16
+7 Train,Vernon Blvd-Jackson Av,17
+7 Train,Grand Central-42 St,18
+7 Train,5 Av,19
+7 Train,Times Sq-42 St,20
+7 Train,34 St-Hudson Yards,21
+A Train,Inwood-207 St,0
+A Train,Dyckman St,1
+A Train,190 St,2
+A Train,181 St,3
+A Train,175 St,4
+A Train,168 St,5
+A Train,145 St,6
+A Train,125 St,7
+A Train,59 St-Columbus Circle,8
+A Train,42 St/Port Authority Bus Terminal,9
+A Train,34 St-Penn Station,10
+A Train,14 St,11
+A Train,W 4 St-Washington Sq,12
+A Train,Canal St,13
+A Train,Chambers St,14
+A Train,Fulton St,15
+A Train,High St,16
+A Train,Jay St-MetroTech,17
+A Train,Hoyt-Schermerhorn,18
+A Train,Nostrand Av,19
+A Train,Utica Av,20
+A Train,Broadway Junction,21
+A Train,Euclid Av,22
+A Train,Grant Av,23
+A Train,80 St,24
+A Train,88 St,25
+A Train,Rockaway Blvd,26
+A Train,104 St,27
+A Train,111 St,28
+A Train,Ozone Pk-Lefferts Boulevard,29
+A Train,Aqueduct Racetrack,30
+A Train,Aqueduct-North Conduit Av,31
+A Train,Howard Beach-JFK Airport,32
+A Train,Broad Channel,33
+A Train,Beach 67 St,34
+A Train,Beach 60 St,35
+A Train,Beach 44 St,36
+A Train,Beach 36 St,37
+A Train,Beach 25 St,38
+A Train,Far Rockaway-Mott Av,39
+A Train,Broad Channel,40
+A Train,Beach 90 St,41
+A Train,Beach 98 St,42
+A Train,Beach 105 St,43
+A Train,Rockaway Park-Beach 116 St,44
+B Train,Bedford Park Blvd,0
+B Train,Kingsbridge Rd,1
+B Train,Fordham Rd,2
+B Train,182-183 Sts,3
+B Train,Tremont Av,4
+B Train,174-175 Sts,5
+B Train,170 St,6
+B Train,167 St,7
+B Train,161 St-Yankee Stadium,8
+B Train,155 St,9
+B Train,145 St,10
+B Train,135 St,11
+B Train,125 St,12
+B Train,116 St,13
+B Train,Cathedral Pkwy (110 St),14
+B Train,103 St,15
+B Train,96 St,16
+B Train,86 St,17
+B Train,81 St-Museum of Natural History,18
+B Train,72 St,19
+B Train,59 St-Columbus Circle,20
+B Train,7 Av,21
+B Train,47-50 Sts-Rockefeller Ctr,22
+B Train,42 St-Bryant Park,23
+B Train,34 St-Herald Sq,24
+B Train,W 4 St-Washington Sq,25
+B Train,Broadway-Lafayette St,26
+B Train,Grand St,27
+B Train,DeKalb Av,28
+B Train,Atlantic Av-Barclays Ctr,29
+B Train,7 Av,30
+B Train,Prospect Park,31
+B Train,Church Av,32
+B Train,Newkirk Plaza,33
+B Train,Kings Hwy,34
+B Train,Sheepshead Bay,35
+B Train,Brighton Beach,36
+C Train,168 St,0
+C Train,163 St-Amsterdam Av,1
+C Train,155 St,2
+C Train,145 St,3
+C Train,135 St,4
+C Train,125 St,5
+C Train,116 St,6
+C Train,Cathedral Pkwy (110 St),7
+C Train,103 St,8
+C Train,96 St,9
+C Train,86 St,10
+C Train,81 St-Museum of Natural History,11
+C Train,72 St,12
+C Train,59 St-Columbus Circle,13
+C Train,50 St,14
+C Train,42 St/Port Authority Bus Terminal,15
+C Train,34 St-Penn Station,16
+C Train,23 St,17
+C Train,14 St,18
+C Train,W 4-Washington Sq,19
+C Train,Spring St,20
+C Train,Canal St,21
+C Train,Chambers St,22
+C Train,Fulton St,23
+C Train,High St,24
+C Train,Jay St-MetroTech,25
+C Train,Hoyt-Schermerhorn,26
+C Train,Lafayette Av,27
+C Train,Clinton-Washington Avs,28
+C Train,Franklin Av,29
+C Train,Nostrand Av,30
+C Train,Kingston-Throop Avs,31
+C Train,Utica Av,32
+C Train,Ralph Av,33
+C Train,Rockaway Av,34
+C Train,Broadway Junction,35
+C Train,Liberty Av,36
+C Train,Van Siclen Av,37
+C Train,Shepherd Av,38
+C Train,Euclid Av,39
+D Train,Norwood-205 St,0
+D Train,Bedford Park Blvd,1
+D Train,Kingsbridge Rd,2
+D Train,Fordham Rd,3
+D Train,182-183 Sts,4
+D Train,Tremont Av,5
+D Train,174-175 Sts,6
+D Train,170 St,7
+D Train,167 St,8
+D Train,161 St-Yankee Stadium,9
+D Train,155 St,10
+D Train,145 St,11
+D Train,125 St,12
+D Train,59 St-Columbus Circle,13
+D Train,7 Av,14
+D Train,47-50 Sts-Rockefeller Ctr,15
+D Train,42 St-Bryant Pk,16
+D Train,34 St-Herald Sq,17
+D Train,W 4 St-Washington Sq,18
+D Train,Broadway-Lafayette St,19
+D Train,Grand St,20
+D Train,Atlantic Av-Barclays Ctr,21
+D Train,36 St,22
+D Train,9 Av,23
+D Train,Fort Hamilton Pkwy,24
+D Train,50 St,25
+D Train,55 St,26
+D Train,62 St,27
+D Train,71 St,28
+D Train,79 St,29
+D Train,18 Av,30
+D Train,20 Av,31
+D Train,Bay Pkwy,32
+D Train,25 Av,33
+D Train,Bay-50 St,34
+D Train,Coney Island-Stillwell Av,35
+E Train,Jamaica Center-Parsons/Archer,0
+E Train,Sutphin Blvd-Archer Av-JFK Airport,1
+E Train,Jamaica-Van Wyck,2
+E Train,Briarwood,3
+E Train,Kew Gardens-Union Tpke,4
+E Train,75 Av,5
+E Train,Forest Hills-71 Av,6
+E Train,Jackson Hts-Roosevelt Av,7
+E Train,Queens Plaza,8
+E Train,Court Sq-23 St,9
+E Train,Lexington Av/53 St,10
+E Train,5 Av/53 St,11
+E Train,7 Av,12
+E Train,50 St,13
+E Train,42 St/Port Authority Bus Terminal,14
+E Train,34 St-Penn Station,15
+E Train,23 St,16
+E Train,14 St,17
+E Train,W 4 St-Washington Sq,18
+E Train,Spring St,19
+E Train,Canal St,20
+E Train,World Trade Center,21
+F Train,Jamaica-179 St,0
+F Train,169 St,1
+F Train,Parsons Blvd,2
+F Train,Sutphin Blvd,3
+F Train,Briarwood,4
+F Train,Kew Gardens-Union Tpke,5
+F Train,75 Av,6
+F Train,Forest Hills-71 Av,7
+F Train,Jackson Hts-Roosevelt Av,8
+F Train,21 St-Queensbridge,9
+F Train,Roosevelt Island,10
+F Train,Lexington Av/63 St,11
+F Train,57 St,12
+F Train,47-50 Sts Rockefeller Ctr,13
+F Train,42 St-Bryant Pk,14
+F Train,34 St-Herald Sq,15
+F Train,23 St,16
+F Train,14 St,17
+F Train,W 4 St-Washington Sq,18
+F Train,Broadway-Lafayette St,19
+F Train,2 Av,20
+F Train,Delancey St-Essex St,21
+F Train,East Broadway,22
+F Train,York St,23
+F Train,Jay St-MetroTech,24
+F Train,Bergen St,25
+F Train,Carroll St,26
+F Train,Smith-9 Sts,27
+F Train,4 Av-9 St,28
+F Train,7 Av,29
+F Train,15 St-Prospect Park,30
+F Train,Fort Hamilton Pkwy,31
+F Train,Church Av,32
+F Train,Ditmas Av,33
+F Train,18 Av,34
+F Train,Avenue I,35
+F Train,Bay Pkwy,36
+F Train,Avenue N,37
+F Train,Avenue P,38
+F Train,Kings Hwy,39
+F Train,Avenue U,40
+F Train,Avenue X,41
+F Train,Neptune Av,42
+F Train,W 8 St-NY Aquarium,43
+F Train,Coney Island-Stillwell Av,44
+G Train,Court Sq,0
+G Train,21 St,1
+G Train,Greenpoint Av,2
+G Train,Nassau Av,3
+G Train,Metropolitan Av,4
+G Train,Broadway,5
+G Train,Flushing Av,6
+G Train,Myrtle Willoughby Avs,7
+G Train,Bedford-Nostrand Avs,8
+G Train,Classon Av,9
+G Train,Clinton-Washington Avs,10
+G Train,Fulton St,11
+G Train,Hoyt-Schermerhorn,12
+G Train,Bergen St,13
+G Train,Carroll St,14
+G Train,Smith-9 Sts,15
+G Train,4 Av-9 Sts,16
+G Train,7 Av,17
+G Train,15 St-Prospect Park,18
+G Train,Fort Hamilton Pkwy,19
+G Train,Church Av,20
+J Train,Jamaica Center-Parsons/Archer,0
+J Train,Sutphin Blvd-Archer Av-JFK Airport,1
+J Train,121 St,2
+J Train,111 St,3
+J Train,104 St,4
+J Train,Woodhaven Blvd,5
+J Train,85 St-Forest Pkwy,6
+J Train,75 St-Elderts Ln,7
+J Train,Cypress Hills,8
+J Train,Crescent St,9
+J Train,Norwood Av,10
+J Train,Cleveland St,11
+J Train,Van Siclen Av,12
+J Train,Alabama Av,13
+J Train,Broadway Junction,14
+J Train,Chauncey St,15
+J Train,Halsey St,16
+J Train,Gates Av,17
+J Train,Kosciuszko St,18
+J Train,Myrtle Av,19
+J Train,Flushing Av,20
+J Train,Lorimer St,21
+J Train,Hewes St,22
+J Train,Marcy Av,23
+J Train,Delancey St-Essex St,24
+J Train,Bowery,25
+J Train,Canal St,26
+J Train,Chambers St,27
+J Train,Fulton St,28
+J Train,Broad St,29
+L Train,8 Av,0
+L Train,6 Av,1
+L Train,14 St-Union Sq,2
+L Train,3 Av,3
+L Train,1 Av,4
+L Train,Bedford Av,5
+L Train,Lorimer St,6
+L Train,Graham Av,7
+L Train,Grand St,8
+L Train,Montrose Av,9
+L Train,Morgan Av,10
+L Train,Jefferson St,11
+L Train,DeKalb Av,12
+L Train,Myrtle-Wyckoff Avs,13
+L Train,Halsey St,14
+L Train,Wilson Av,15
+L Train,Bushwick Av-Aberdeen St,16
+L Train,Broadway Junction,17
+L Train,Atlantic Av,18
+L Train,Sutter Av,19
+L Train,Livonia Av,20
+L Train,New Lots Av,21
+L Train,East 105 St,22
+L Train,Canarsie-Rockaway Pkwy,23
+M Train,Forest Hills-71 Av,0
+M Train,67 Av,1
+M Train,63 Dr-Rego Park,2
+M Train,Woodhaven Blvd,3
+M Train,Grand Av-Newtown,4
+M Train,Elmhurst Av,5
+M Train,Jackson Hts-Roosevelt Av,6
+M Train,65 St,7
+M Train,Northern Blvd,8
+M Train,46 St,9
+M Train,Steinway St,10
+M Train,36 St,11
+M Train,Queens Plaza,12
+M Train,Court Sq-23 St,13
+M Train,Lexington Av/53 St,14
+M Train,5 Av/53 St,15
+M Train,47-50 Sts-Rockefeller Ctr,16
+M Train,42 St-Bryant Pk,17
+M Train,34 St-Herald Sq,18
+M Train,23 St,19
+M Train,14 St,20
+M Train,W 4 St-Washington Sq,21
+M Train,Broadway-Lafayette St,22
+M Train,Delancey St-Essex St,23
+M Train,Marcy Av,24
+M Train,Hewes St,25
+M Train,Lorimer St,26
+M Train,Flushing Av,27
+M Train,Myrtle Av,28
+M Train,Central Av,29
+M Train,Knickerbocker Av,30
+M Train,Myrtle-Wyckoff Avs,31
+M Train,Seneca Av,32
+M Train,Forest Av,33
+M Train,Fresh Pond Rd,34
+M Train,Middle Village-Metropolitan Av,35
+N Train,Astoria Ditmars Blvd,0
+N Train,Astoria Blvd,1
+N Train,30 Av,2
+N Train,Broadway,3
+N Train,36 Av,4
+N Train,39 Av,5
+N Train,Queensboro Plaza,6
+N Train,Lexington Av/59 St,7
+N Train,5 Av/59 St,8
+N Train,57 St-7 Av,9
+N Train,49 St,10
+N Train,Times Sq-42 St,11
+N Train,34 St-Herald Sq,12
+N Train,14 St-Union Sq,13
+N Train,Canal St,14
+N Train,Atlantic Av-Barclays Ctr,15
+N Train,36 St,16
+N Train,59 St,17
+N Train,8 Av,18
+N Train,Fort Hamilton Pkwy,19
+N Train,New Utrecht Av,20
+N Train,18 Av,21
+N Train,20 Av,22
+N Train,Bay Pkwy,23
+N Train,Kings Hwy,24
+N Train,Avenue U,25
+N Train,86 St,26
+N Train,Coney Island-Stillwell Av,27
+Q Train,96 St,0
+Q Train,86 St,1
+Q Train,72 St,2
+Q Train,Lexington Av/63 St,3
+Q Train,57 St-7 Av,4
+Q Train,Times Sq-42 St,5
+Q Train,34 St-Herald Sq,6
+Q Train,14 St-Union Sq,7
+Q Train,Canal St,8
+Q Train,DeKalb Av,9
+Q Train,Atlantic Av-Barclays Ctr,10
+Q Train,7 Av,11
+Q Train,Prospect Park,12
+Q Train,Parkside Av,13
+Q Train,Church Av,14
+Q Train,Beverly Rd,15
+Q Train,Cortelyou Rd,16
+Q Train,Newkirk Plaza,17
+Q Train,Avenue H,18
+Q Train,Avenue J,19
+Q Train,Avenue M,20
+Q Train,Kings Hwy,21
+Q Train,Avenue U,22
+Q Train,Neck Rd,23
+Q Train,Sheepshead Bay,24
+Q Train,Brighton Beach,25
+Q Train,Ocean Pkwy,26
+Q Train,W 8 St-NY Aquarium,27
+Q Train,Coney Island-Stillwell Av,28
+R Train,Forest Hills-71 Av,0
+R Train,67 Av,1
+R Train,63 Dr-Rego Park,2
+R Train,Woodhaven Blvd,3
+R Train,Grand Av,4
+R Train,Elmhurst Av,5
+R Train,Jackson Hts-Roosevelt Av,6
+R Train,65 St,7
+R Train,Northern Blvd,8
+R Train,46 St,9
+R Train,Steinway St,10
+R Train,36 St,11
+R Train,Queens Plaza,12
+R Train,Lexington Av/59 St,13
+R Train,5 Av/59 St,14
+R Train,57 St-7 Av,15
+R Train,49 St,16
+R Train,Times Square-42 St,17
+R Train,34 St-Herald Square,18
+R Train,28 St,19
+R Train,23 St,20
+R Train,14 St-Union Sq,21
+R Train,8 St-NYU,22
+R Train,Prince St,23
+R Train,Canal St,24
+R Train,City Hall,25
+R Train,Cortlandt St,26
+R Train,Rector St,27
+R Train,Whitehall St-South Ferry,28
+R Train,Court St,29
+R Train,Jay St-MetroTech,30
+R Train,DeKalb Av,31
+R Train,Atlantic Av-Barclays Ctr,32
+R Train,Union St,33
+R Train,4 Av-9 St,34
+R Train,Prospect Av,35
+R Train,25 St,36
+R Train,36 St,37
+R Train,45 St,38
+R Train,53 St,39
+R Train,59 St,40
+R Train,Bay Ridge Av,41
+R Train,77 St,42
+R Train,86 St,43
+R Train,Bay Ridge-95 St,44
+Shuttles,Times Sq-42 St,0
+Shuttles,Grand Central-42 St,1
+Shuttles,Franklin Av,2
+Shuttles,Park Place,3
+Shuttles,Botanic Garden,4
+Shuttles,Prospect Park,5
+Shuttles,Broad Channel,6
+Shuttles,Beach 90 St,7
+Shuttles,Beach 98 St,8
+Shuttles,Beach 105 St,9
+Shuttles,Rockaway Park-Beach 116 St,10
+W Train,Astoria-Ditmars Blvd,0
+W Train,Astoria Blvd,1
+W Train,30 Av,2
+W Train,Broadway,3
+W Train,36 Av,4
+W Train,39 Av,5
+W Train,Queensboro Plaza,6
+W Train,Lexington Av/59 St,7
+W Train,5 Av/59 St,8
+W Train,57-7 Av,9
+W Train,49 St,10
+W Train,Times Sq-42 St,11
+W Train,34 St-Herald Sq,12
+W Train,28 St,13
+W Train,23 St,14
+W Train,14 St-Union Sq,15
+W Train,8 St-NYU,16
+W Train,Prince St,17
+W Train,Canal St,18
+W Train,City Hall,19
+W Train,Cortlandt St,20
+W Train,Rector St,21
+W Train,Whitehall St-South Ferry,22
+Z Train,Jamaica Center-Parsons/Archer,0
+Z Train,Sutphin Blvd-Archer Av-JFK Airport,1
+Z Train,121 St,2
+Z Train,104 St,3
+Z Train,Woodhaven Blvd,4
+Z Train,75 St-Elderts Ln,5
+Z Train,Crescent St,6
+Z Train,Norwood Av,7
+Z Train,Van Siclen Av,8
+Z Train,Alabama Av,9
+Z Train,Broadway Junction,10
+Z Train,Chauncey St,11
+Z Train,Gates Av,12
+Z Train,Myrtle Av,13
+Z Train,Marcy Av,14
+Z Train,Delancey St Essex St,15
+Z Train,Bowery,16
+Z Train,Canal St,17
+Z Train,Chambers St,18
+Z Train,Fulton St,19
+Z Train,Broad St,20
