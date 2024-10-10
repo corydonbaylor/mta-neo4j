@@ -1,4 +1,4 @@
-import create_data as dat 
+import subways as sw 
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -13,7 +13,7 @@ response = requests.get(url)
 soup = BeautifulSoup(response.content, 'html.parser')
 
 # finds all the links 
-links = dat.find_links(soup)
+links = sw.find_links(soup)
 
 # empty list where all the data will go
 all_df = []
@@ -24,11 +24,11 @@ for link in links:
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # then get the train number
-    service = dat.extract_train_name(soup)
+    service = sw.extract_train_name(soup)
     print(service)
 
     # create the table
-    df = dat.create_tables(soup, service)
+    df = sw.create_tables(soup, service)
     all_df.append(df)
 
 # put all the data in one df
