@@ -34,4 +34,4 @@ for link in links:
 # put all the data in one df
 final = pd.concat(all_df, ignore_index=True)
 # save as a csv
-final.to_csv('subway_data.csv', index=False)
+final.to_csv('data/subway_data.csv', index=False)

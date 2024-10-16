@@ -12,7 +12,7 @@ def extract_train_name(soup):
 
             # shuttle stuff needs to get fixed
             if train_name == "Line maps":
-                train_name = "Shuttles"
+                train_name = "S Train"
 
             return train_name
         else:
