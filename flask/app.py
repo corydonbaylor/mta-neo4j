@@ -26,9 +26,7 @@ def get_shortest_path(tx, start_station, end_station):
       relationshipWeightProperty: 'length'
     })
     YIELD path
-    RETURN [node in nodes(path) | node.name] AS stations,
-           [rel in relationships(path) | type(rel)] AS lines,
-           reduce(s = 0, r in relationships(path) | s + r.length) AS totalDistance
+    RETURN [node in nodes(path) | node.name] AS stations
     """
     result = tx.run(query, start_name=start_station, end_name=end_station)
     return result.single()
@@ -61,9 +59,7 @@ def shortest_path():
     
     if result:
         return render_template('index.html', result={
-            "stations": result["stations"],
-            "lines": result["lines"],
-            "total_distance": result["totalDistance"]
+            "stations": result["stations"]
         })
     else:
         return render_template('index.html', error="No path found between the specified stations")
