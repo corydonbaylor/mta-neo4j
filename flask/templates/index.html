@@ -14,60 +14,210 @@
 <body>
     <div class="container">
         <h1 class="mb-4">NYC Subway Route Finder</h1>
-        <form action="/shortest_path" method="get" class="mb-4">
-            <div class="row g-3">
-                <div class="col-md-5">
-                    <input type="text" class="form-control" name="start" placeholder="Start Station" required>
-                </div>
-                <div class="col-md-5">
-                    <input type="text" class="form-control" name="end" placeholder="End Station" required>
-                </div>
-                <div class="col-md-2">
-                    <input type="submit" class="btn btn-primary w-100" value="Find Route">
-                </div>
-            </div>
-        </form>
         
-        {% if error %}
-            <div class="alert alert-danger" role="alert">
-                {{ error }}
-            </div>
-            {% if start_suggestions %}
-                <div class="suggestions">
-                    <p>Did you mean one of these for the start station?</p>
-                    <ul class="list-group">
-                    {% for suggestion, score in start_suggestions %}
-                        <li class="list-group-item">{{ suggestion }} ({{ score }}% match)</li>
-                    {% endfor %}
-                    </ul>
-                </div>
-            {% endif %}
-            {% if end_suggestions %}
-                <div class="suggestions">
-                    <p>Did you mean one of these for the end station?</p>
-                    <ul class="list-group">
-                    {% for suggestion, score in end_suggestions %}
-                        <li class="list-group-item">{{ suggestion }} ({{ score }}% match)</li>
-                    {% endfor %}
-                    </ul>
-                </div>
-            {% endif %}
-        {% endif %}
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Route Finder</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tutorial-tab" data-bs-toggle="tab" data-bs-target="#tutorial" type="button" role="tab" aria-controls="tutorial" aria-selected="false">Tutorial</button>
+            </li>
+        </ul>
         
-        {% if result %}
-            <div id="result" class="mt-4">
-                <h2>Shortest Route:</h2>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Stations:</h5>
-                        <p class="card-text">{{ result.stations|join(' → ') }}</p>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <form action="/shortest_path" method="get" class="mb-4">
+                    <div class="row g-3">
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" name="start" placeholder="Start Station" required>
+                        </div>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" name="end" placeholder="End Station" required>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="submit" class="btn btn-primary w-100" value="Find Route">
+                        </div>
+                    </div>
+                </form>
+                
+                {% if error %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error }}
+                    </div>
+                    {% if start_suggestions %}
+                        <div class="suggestions">
+                            <p>Did you mean one of these for the start station?</p>
+                            <ul class="list-group">
+                            {% for suggestion, score in start_suggestions %}
+                                <li class="list-group-item">{{ suggestion }} ({{ score }}% match)</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+                    {% if end_suggestions %}
+                        <div class="suggestions">
+                            <p>Did you mean one of these for the end station?</p>
+                            <ul class="list-group">
+                            {% for suggestion, score in end_suggestions %}
+                                <li class="list-group-item">{{ suggestion }} ({{ score }}% match)</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+                {% endif %}
+                
+                {% if result %}
+                    <div id="result" class="mt-4">
+                        <h2>Shortest Route:</h2>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Stations:</h5>
+                                <p class="card-text">{{ result.stations|join(' → ') }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+            
+            <div class="tab-pane" id="tutorial" role="tabpanel" aria-labelledby="tutorial-tab">
+                <div class="accordion" id="tutorialAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Loading in the Data
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tutorialAccordion">
+                            <div class="accordion-body">
+                                    <p>We are going to need some data before we can run an algorithm. Fortunately, we have some data from the MTA detailing the routes and stations of the NYC subway.</p>
+                                    <p>Our station data looks something like this:</p>
+                                    <figure class='table-figure'><table class="table table-striped table-bordered">
+                                    <thead>
+                                    <tr><th>id</th><th>name</th><th>Stop Name</th><th>Latitude</th><th>Longitude</th></tr></thead>
+                                    <tbody><tr><td>293</td><td>Van Cortlandt Park-242 - Bx</td><td>Van Cortlandt Park-242 St</td><td>40.889248</td><td>-73.898583</td></tr><tr><td>294</td><td>238 St - Bx</td><td>238 St</td><td>40.884667</td><td>-73.90087</td></tr></tbody>
+                                    </table></figure>
+                                    <p>We also have a couple of other properities that we will include like the <code>Daytime Routes</code> and the <code>Georeference</code>. We load them into cypher like so: </p>
+                                    <pre class="bg-light p-3 rounded"><code>LOAD CSV WITH HEADERS FROM &#39;file:///stations.csv&#39; AS row
+CREATE (s:Station {
+id: toInteger(row.id),
+name: row.name,
+stopName: row[&#39;Stop Name&#39;],
+borough: row.Borough,
+daytimeRoutes: row[&#39;Daytime Routes&#39;],
+latitude: toFloat(row.Latitude),
+longitude: toFloat(row.Longitude),
+georeference: row.Georeference
+})
+                                    </code></pre>
+                                    <p>Some notes on this query:</p>
+                                    <ul>
+                                    <li><code>LOAD CSV WITH HEADERS FROM &#39;file:///stations.csv&#39; AS row</code>: first we load in our csv from the import folder</li>
+                                    <li><code>CREATE (s:Station {})</code> then we create a node called station</li>
+                                    <li><code>id: toInteger(row.id),</code> next we add properties to the station node</li>
+
+                                    </ul>
+                                    <p>Next we need to add the relationships (which are the subway routes) between the nodes. Our data in tabular format looks like this:</p>
+                                    <figure class='table-figure'><table class="table table-striped table-bordered">
+                                    <thead>
+                                    <tr><th>from_station_id</th><th>to_station_id</th><th>line_name</th><th>stop_order</th><th>length</th></tr></thead>
+                                    <tbody><tr><td>293</td><td>294</td><td>1 Train</td><td>1</td><td>5.44457E-01</td></tr><tr><td>294</td><td>295</td><td>1 Train</td><td>2</td><td>7.2703E-01</td></tr></tbody>
+                                    </table></figure>
+                                    <p>Next we add the relationships:</p>
+                                    <pre class="bg-light p-3 rounded"><code>LOAD CSV WITH HEADERS FROM &#39;file:///lines.csv&#39; AS row
+MATCH (from:Station {id: toInteger(row.from_station_id)})
+MATCH (to:Station {id: toInteger(row.to_station_id)})
+MERGE (from)-[r1:CONNECTS_TO {
+lineName: row.line_name,
+stopOrder: toInteger(row.stop_order),
+length: toFloat(row.length)
+}]-&gt;(to)
+MERGE (to)-[r2:CONNECTS_TO {
+lineName: row.line_name,
+stopOrder: toInteger(row.stop_order),
+length: toFloat(row.length)
+}]-&gt;(from)
+                                    </code></pre>
+                                    <p>In the above query:</p>
+                                    <ul>
+                                    <li>We use <code>MATCH (from:Station {id: toInteger(row.from_station_id)})</code> to find the first station</li>
+                                    <li>We use <code>MATCH (to:Station {id: toInteger(row.to_station_id)})</code> to find the second station</li>
+
+                                    </ul>
+                                    <p>And </p>
+                                    <pre class="bg-light p-3 rounded"><code>MERGE (from)-[r1:CONNECTS_TO {
+                                    lineName: row.line_name,
+                                    stopOrder: toInteger(row.stop_order),
+                                    length: toFloat(row.length)
+                                    }]-&gt;(to)
+                                    </code></pre>
+                                    <p>to connect the two lines together.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Creating a Projection
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tutorialAccordion">
+                            <div class="accordion-body">
+                                <p>In order to run an algorithm we first need to create a projection of the graph. Think of these as optimized versions of your graph that allow you to efficiently run your algorithms. </p>
+                                <p>Our projection is going to be really simple. We are going to use the <code>station</code> nodes and the <code>CONNECTS_TO</code> relationships. From the <code>CONNECTS_TO</code> relationship, we allow the orientation to be undirected, and we include the <code>length</code> property. </p>
+                                <pre class="bg-light p-3 rounded"><code>CALL gds.graph.project(
+&#39;subway_graph&#39;,
+&#39;Station&#39;,
+{
+CONNECTS_TO: {
+    orientation: &#39;UNDIRECTED&#39;,
+    properties: [&#39;length&#39;]
+}
+}
+)
+                                </code></pre>
+                                <p>&nbsp;</p>
+                                                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Running an Algorithm
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tutorialAccordion">
+                            <div class="accordion-body">
+                                <p>Actually using the algorithm is pretty simple. We will be using <a href='https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/'>Dijkstra shortest path</a> to find the quickest route from station to station. Here is how we do it:</p>
+                                <pre class="bg-light p-3 rounded"><code>MATCH (start:Station {name: $start_name}), (end:Station {name: $end_name})
+CALL gds.shortestPath.dijkstra.stream(&#39;subway_graph&#39;, {
+    sourceNode: id(start),
+    targetNode: id(end),
+    relationshipWeightProperty: &#39;length&#39;
+})
+YIELD path
+RETURN [node in nodes(path) | node.name] AS stations
+                                </code></pre>
+                                <p>Calling the algorithm requires a few things:</p>
+                                <ul>
+                                <li>The <code>sourceNode</code>  and the <code>targetNode</code> , which are pulled from the match statement</li>
+                                <li>The <code>relationshipWeightProperty</code> which is the length between the stations and is pulled from the relationships</li>
+                                <li>And which projection to use, which is the <code>subway_graph</code> </li>
+                                
+                                </ul>
+                                <p>It then gives us stations back (via the nodes in the returned path)</p>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        {% endif %}
+        </div>
     </div>
 
-    <!-- Bootstrap JS (optional, but needed for some Bootstrap features) -->
+    <!-- Bootstrap JS (required for tabs and accordion) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

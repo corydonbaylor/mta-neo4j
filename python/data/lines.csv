@@ -1,0 +1,700 @@
+from_station_id,from_station_name,to_station_id,to_station_name,line_name,stop_order,length
+293,Van Cortlandt Park-242 - Bx,294,238 St - Bx,1 Train,1,0.5444570179435755
+294,238 St - Bx,295,231 St - Bx,1 Train,2,0.7270303630778642
+295,231 St - Bx,296,Marble Hill-225 St - M,1 Train,3,0.6360777329178118
+296,Marble Hill-225 St - M,297,215 St - M,1 Train,4,0.7304673828752828
+297,215 St - M,298,207 St - M,1 Train,5,0.6134907533880889
+298,207 St - M,299,Dyckman St - M,1 Train,6,0.724994645719378
+299,Dyckman St - M,300,191 St - M,1 Train,7,0.6740617619287433
+300,191 St - M,301,181 St - M,1 Train,8,0.726896403032795
+301,181 St - M,302,168 St - M,1 Train,9,1.1369037933999244
+302,168 St - M,303,157 St - M,1 Train,10,0.8276222404511979
+303,157 St - M,304,145 St - M,1 Train,11,0.9515477189050385
+304,145 St - M,305,137 St-City College - M,1 Train,12,0.5770933251789423
+305,137 St-City College - M,306,125 St - M,1 Train,13,0.8166290643083758
+306,125 St - M,307,116 St-Columbia University - M,1 Train,14,0.9984316544395356
+307,116 St-Columbia University - M,308,Cathedral Pkwy (110 St) - M,1 Train,15,0.4768696537049404
+308,Cathedral Pkwy (110 St) - M,309,103 St - M,1 Train,16,0.5189875230607629
+309,103 St - M,310,96 St - M,1 Train,17,0.6985162154962519
+310,96 St - M,311,86 St - M,1 Train,18,0.671984860771885
+311,86 St - M,312,79 St - M,1 Train,19,0.6093242278922519
+312,79 St - M,313,72 St - M,1 Train,20,0.6334987819421696
+313,72 St - M,314,66 St-Lincoln Center - M,1 Train,21,0.5577833392412742
+314,66 St-Lincoln Center - M,315,59 St-Columbus Circle - M,1 Train,22,0.5779164691230855
+315,59 St-Columbus Circle - M,316,50 St - M,1 Train,23,0.7426959585588846
+316,50 St - M,317,Times Sq-42 St - M,1 Train,24,0.7789598508372649
+317,Times Sq-42 St - M,318,34 St-Penn Station - M,1 Train,25,0.6236626183876465
+318,34 St-Penn Station - M,319,28 St - M,1 Train,26,0.40138422521786543
+319,28 St - M,320,23 St - M,1 Train,27,0.3984010963897135
+320,23 St - M,321,18 St - M,1 Train,28,0.38617590209041636
+321,18 St - M,322,14 St - M,1 Train,29,0.40774525334852646
+322,14 St - M,323,Christopher St-Stonewall - M,1 Train,30,0.5401408073720474
+323,Christopher St-Stonewall - M,324,Houston St - M,1 Train,31,0.6112395357600047
+324,Houston St - M,325,Canal St - M,1 Train,32,0.6049985973466541
+325,Canal St - M,326,Franklin St - M,1 Train,33,0.396520725563831
+326,Franklin St - M,327,Chambers St - M,1 Train,34,0.4717550517869683
+327,Chambers St - M,328,WTC Cortlandt - M,1 Train,35,0.4740719952747722
+328,WTC Cortlandt - M,329,Rector St - M,1 Train,36,0.4990346372898971
+329,Rector St - M,330,South Ferry - M,1 Train,37,0.6055394660235972
+416,Wakefield-241 St - Bx,417,Nereid Av - Bx,2 Train,1,0.6149408407275935
+417,Nereid Av - Bx,418,233 St - Bx,2 Train,2,0.6326884323751094
+418,233 St - Bx,419,225 St - Bx,2 Train,3,0.6234841359289004
+419,225 St - Bx,420,219 St - Bx,2 Train,4,0.4977096459550056
+420,219 St - Bx,421,Gun Hill Rd - Bx,2 Train,5,0.7379650446876342
+421,Gun Hill Rd - Bx,422,Burke Av - Bx,2 Train,6,0.7261243766080401
+422,Burke Av - Bx,423,Allerton Av - Bx,2 Train,7,0.6555735258761344
+423,Allerton Av - Bx,424,Pelham Pkwy - Bx,2 Train,8,0.9198479816514569
+424,Pelham Pkwy - Bx,425,Bronx Park East - Bx,2 Train,9,0.9327266992813633
+425,Bronx Park East - Bx,426,E 180 St - Bx,2 Train,10,0.8795284029526211
+426,E 180 St - Bx,427,West Farms Sq-E Tremont Av - Bx,2 Train,11,0.5798558228227075
+427,West Farms Sq-E Tremont Av - Bx,428,174 St - Bx,2 Train,12,0.7278459793749456
+428,174 St - Bx,429,Freeman St - Bx,2 Train,13,0.8824854033873898
+429,Freeman St - Bx,430,Simpson St - Bx,2 Train,14,0.6659595327948483
+430,Simpson St - Bx,431,Intervale Av - Bx,2 Train,15,0.37380243061902735
+431,Intervale Av - Bx,432,Prospect Av - Bx,2 Train,16,0.5126027350767107
+432,Prospect Av - Bx,433,Jackson Av - Bx,2 Train,17,0.613614505668509
+433,Jackson Av - Bx,434,3 Av-149 St - Bx,2 Train,18,0.8383967706028828
+434,3 Av-149 St - Bx,435,149 St-Grand Concourse - Bx,2 Train,19,0.7963111883993276
+435,149 St-Grand Concourse - Bx,438,135 St - M,2 Train,20,1.2706284426274868
+438,135 St - M,439,125 St - M,2 Train,21,0.8225035271041099
+439,125 St - M,440,116 St - M,2 Train,22,0.7185911118911803
+440,116 St - M,441,Central Park North (110 St) - M,2 Train,23,0.3836537923029058
+441,Central Park North (110 St) - M,310,96 St - M,2 Train,24,1.8184839729996882
+310,96 St - M,313,72 St - M,2 Train,25,1.9018858907617815
+313,72 St - M,317,Times Sq-42 St - M,2 Train,26,2.6172991769065184
+317,Times Sq-42 St - M,318,34 St-Penn Station - M,2 Train,27,0.6236626183876465
+318,34 St-Penn Station - M,322,14 St - M,2 Train,28,1.5937048188979137
+322,14 St - M,327,Chambers St - M,2 Train,29,2.599742123217892
+327,Chambers St - M,331,Park Place - M,2 Train,30,0.27258114195228805
+331,Park Place - M,332,Fulton St - M,2 Train,31,0.44611491236466033
+332,Fulton St - M,333,Wall St - M,2 Train,32,0.3587523252601372
+333,Wall St - M,334,Clark St - Bk,2 Train,33,1.7042401710909514
+334,Clark St - Bk,335,Borough Hall - Bk,2 Train,34,0.5392508317842398
+335,Borough Hall - Bk,336,Hoyt St - Bk,2 Train,35,0.5112592617321479
+336,Hoyt St - Bk,337,Nevins St - Bk,2 Train,36,0.46261577881604515
+337,Nevins St - Bk,338,Atlantic Av-Barclays Ctr - Bk,2 Train,37,0.49354654480784305
+338,Atlantic Av-Barclays Ctr - Bk,339,Bergen St - Bk,2 Train,38,0.4482860041418725
+339,Bergen St - Bk,340,Grand Army Plaza - Bk,2 Train,39,0.7096989538741214
+340,Grand Army Plaza - Bk,341,Eastern Pkwy-Brooklyn Museum - Bk,2 Train,40,0.66854157471191
+341,Eastern Pkwy-Brooklyn Museum - Bk,342,Franklin Av-Medgar Evers College - Bk,2 Train,41,0.5462272970236383
+342,Franklin Av-Medgar Evers College - Bk,353,President St-Medgar Evers College - Bk,2 Train,42,0.7010372421920134
+353,President St-Medgar Evers College - Bk,354,Sterling St - Bk,2 Train,43,0.5718266255872432
+354,Sterling St - Bk,355,Winthrop St - Bk,2 Train,44,0.6793931140345982
+355,Winthrop St - Bk,356,Church Av - Bk,2 Train,45,0.6480795895854173
+356,Church Av - Bk,357,Beverly Rd - Bk,2 Train,46,0.6409253261250237
+357,Beverly Rd - Bk,358,Newkirk Av-Little Haiti - Bk,2 Train,47,0.5724116082232024
+358,Newkirk Av-Little Haiti - Bk,359,Flatbush Av-Brooklyn College - Bk,2 Train,48,0.7955816733550258
+436,Harlem-148 St - M,437,145 St - M,3 Train,1,0.3850889475051956
+437,145 St - M,438,135 St - M,3 Train,2,0.7868023040800753
+438,135 St - M,439,125 St - M,3 Train,3,0.8225035271041099
+439,125 St - M,440,116 St - M,3 Train,4,0.7185911118911803
+440,116 St - M,441,Central Park North (110 St) - M,3 Train,5,0.3836537923029058
+441,Central Park North (110 St) - M,310,96 St - M,3 Train,6,1.8184839729996882
+310,96 St - M,313,72 St - M,3 Train,7,1.9018858907617815
+313,72 St - M,317,Times Square-42 St - M,3 Train,8,2.6172991769065184
+317,Times Square-42 St - M,318,34 St-Penn Station - M,3 Train,9,0.6236626183876465
+318,34 St-Penn Station - M,322,14 St - M,3 Train,10,1.5937048188979137
+322,14 St - M,327,Chambers St - M,3 Train,11,2.599742123217892
+327,Chambers St - M,331,Park Place - M,3 Train,12,0.27258114195228805
+331,Park Place - M,332,Fulton St - M,3 Train,13,0.44611491236466033
+332,Fulton St - M,333,Wall St - M,3 Train,14,0.3587523252601372
+333,Wall St - M,334,Clark St - Bk,3 Train,15,1.7042401710909514
+334,Clark St - Bk,335,Borough Hall - Bk,3 Train,16,0.5392508317842398
+335,Borough Hall - Bk,336,Hoyt St - Bk,3 Train,17,0.5112592617321479
+336,Hoyt St - Bk,337,Nevins St - Bk,3 Train,18,0.46261577881604515
+337,Nevins St - Bk,338,Atlantic Av-Barclays Ctr - Bk,3 Train,19,0.49354654480784305
+338,Atlantic Av-Barclays Ctr - Bk,339,Bergen St - Bk,3 Train,20,0.4482860041418725
+339,Bergen St - Bk,340,Grand Army Plaza - Bk,3 Train,21,0.7096989538741214
+340,Grand Army Plaza - Bk,341,Eastern Parkway-Brooklyn Museum - Bk,3 Train,22,0.66854157471191
+341,Eastern Parkway-Brooklyn Museum - Bk,342,Franklin Av-Medgar Evers College - Bk,3 Train,23,0.5462272970236383
+342,Franklin Av-Medgar Evers College - Bk,343,Nostrand Av - Bk,3 Train,24,0.6530868217095235
+343,Nostrand Av - Bk,344,Kingston Av - Bk,3 Train,25,0.7022056278548164
+344,Kingston Av - Bk,345,Crown Heights-Utica Av - Bk,3 Train,26,0.7795290347856687
+345,Crown Heights-Utica Av - Bk,346,Sutter Ave-Rutland Rd - Bk,3 Train,27,0.9876345661701886
+346,Sutter Ave-Rutland Rd - Bk,347,Saratoga Av - Bk,3 Train,28,0.6423220081325451
+347,Saratoga Av - Bk,348,Rockaway Av - Bk,3 Train,29,0.6343940766302999
+348,Rockaway Av - Bk,349,Junius St - Bk,3 Train,30,0.558598884195111
+349,Junius St - Bk,350,Pennsylvania Av - Bk,3 Train,31,0.6490423110914195
+350,Pennsylvania Av - Bk,351,Van Siclen Av - Bk,3 Train,32,0.47264469734314984
+351,Van Siclen Av - Bk,352,New Lots Av - Bk,3 Train,33,0.4568109586914315
+378,Woodlawn - Bx,379,Mosholu Pkwy - Bx,4 Train,1,0.8573633677082847
+379,Mosholu Pkwy - Bx,380,Bedford Pk Blvd-Lehman College - Bx,4 Train,2,0.8387458263523315
+380,Bedford Pk Blvd-Lehman College - Bx,381,Kingsbridge Rd - Bx,4 Train,3,0.8674054929462882
+381,Kingsbridge Rd - Bx,382,Fordham Rd - Bx,4 Train,4,0.6396670347905313
+382,Fordham Rd - Bx,383,183 St - Bx,4 Train,5,0.5442257013659437
+383,183 St - Bx,384,Burnside Av - Bx,4 Train,6,0.6370667988045094
+384,Burnside Av - Bx,385,176 St - Bx,4 Train,7,0.6521346564930024
+385,176 St - Bx,386,Mt Eden Av - Bx,4 Train,8,0.5114099216738436
+386,Mt Eden Av - Bx,387,170 St - Bx,4 Train,9,0.5506350832822398
+387,170 St - Bx,388,167 St - Bx,4 Train,10,0.5889001160621481
+388,167 St - Bx,389,161 St-Yankee Stadium - Bx,4 Train,11,0.9178603373085212
+389,161 St-Yankee Stadium - Bx,390,149 St-Grand Concourse - Bx,4 Train,12,1.0772039219045704
+390,149 St-Grand Concourse - Bx,391,138 St-Grand Concourse - Bx,4 Train,13,0.6101236343943932
+391,138 St-Grand Concourse - Bx,392,125 St - M,4 Train,14,1.2023473747374884
+392,125 St - M,397,86 St - M,4 Train,15,3.131343478245147
+397,86 St - M,400,59 St - M,4 Train,16,2.1553476012542907
+400,59 St - M,402,Grand Central-42 St - M,4 Train,17,1.4101071758820427
+402,Grand Central-42 St - M,406,14 St-Union Sq - M,4 Train,18,2.1989217388130746
+406,14 St-Union Sq - M,411,Brooklyn Bridge-City Hall - M,4 Train,19,2.6834465614976235
+411,Brooklyn Bridge-City Hall - M,412,Fulton St - M,4 Train,20,0.5435134708562124
+412,Fulton St - M,413,Wall St - M,4 Train,21,0.3701827328400188
+413,Wall St - M,414,Bowling Green - M,4 Train,22,0.3568049144666595
+414,Bowling Green - M,415,Borough Hall - Bk,4 Train,23,2.443238896963689
+415,Borough Hall - Bk,337,Nevins St - Bk,4 Train,24,0.9364714106852233
+337,Nevins St - Bk,338,Atlantic Av-Barclays Ctr - Bk,4 Train,25,0.49354654480784305
+338,Atlantic Av-Barclays Ctr - Bk,342,Franklin Av-Medgar Evers College - Bk,4 Train,26,2.242030079324701
+342,Franklin Av-Medgar Evers College - Bk,345,Crown Heights-Utica Av - Bk,4 Train,27,2.1336648054799032
+442,Eastchester-Dyre Av,443,Baychester Av,5 Train,1,1.254412479637381
+443,Baychester Av,421,Gun Hill Rd,5 Train,2,2.3276825411048283
+421,Gun Hill Rd,444,Gun Hill Rd,5 Train,2,1.9100895858842044
+444,Gun Hill Rd,424,Pelham Pkwy,5 Train,3,2.2513496439536897
+424,Pelham Pkwy,445,Pelham Pkwy,5 Train,3,1.0498383615182367
+445,Pelham Pkwy,446,Morris Park,5 Train,4,0.6712693035337975
+446,Morris Park,426,E 180 St,5 Train,5,1.7655161393281473
+426,E 180 St,427,West Farms Sq-E Tremont Av,5 Train,6,0.5798558228227075
+427,West Farms Sq-E Tremont Av,428,174 St,5 Train,7,0.7278459793749456
+428,174 St,429,Freeman St,5 Train,8,0.8824854033873898
+429,Freeman St,430,Simpson St,5 Train,9,0.6659595327948483
+430,Simpson St,431,Intervale Av,5 Train,10,0.37380243061902735
+431,Intervale Av,432,Prospect Av,5 Train,11,0.5126027350767107
+432,Prospect Av,433,Jackson Av,5 Train,12,0.613614505668509
+433,Jackson Av,434,3 Av-149 St,5 Train,13,0.8383967706028828
+434,3 Av-149 St,435,149 St-Grand Concourse,5 Train,14,0.7963111883993276
+435,149 St-Grand Concourse,391,138 St-Grand Concourse,5 Train,15,0.6340016148659452
+391,138 St-Grand Concourse,392,125 St,5 Train,16,1.2023473747374884
+392,125 St,397,86 St,5 Train,17,3.131343478245147
+397,86 St,400,59 St,5 Train,18,2.1553476012542907
+400,59 St,402,Grand Central-42 St,5 Train,19,1.4101071758820427
+402,Grand Central-42 St,406,14 St-Union Sq,5 Train,20,2.1989217388130746
+406,14 St-Union Sq,411,Brooklyn Bridge-City Hall,5 Train,21,2.6834465614976235
+411,Brooklyn Bridge-City Hall,412,Fulton St,5 Train,22,0.5435134708562124
+412,Fulton St,413,Wall St,5 Train,23,0.3701827328400188
+413,Wall St,414,Bowling Green,5 Train,24,0.3568049144666595
+414,Bowling Green,415,Borough Hall,5 Train,34,2.443238896963689
+415,Borough Hall,337,Nevins St,5 Train,35,0.9364714106852233
+337,Nevins St,338,Atlantic Av-Barclays Ctr,5 Train,36,0.49354654480784305
+338,Atlantic Av-Barclays Ctr,342,Franklin Av-Medgar Evers College,5 Train,37,2.242030079324701
+342,Franklin Av-Medgar Evers College,353,President St-Medgar Evers College,5 Train,38,0.7010372421920134
+353,President St-Medgar Evers College,354,Sterling St,5 Train,39,0.5718266255872432
+354,Sterling St,355,Winthrop St,5 Train,40,0.6793931140345982
+355,Winthrop St,356,Church Av,5 Train,41,0.6480795895854173
+356,Church Av,357,Beverly Rd,5 Train,42,0.6409253261250237
+357,Beverly Rd,358,Newkirk Av-Little Haiti,5 Train,43,0.5724116082232024
+358,Newkirk Av-Little Haiti,359,Flatbush Av-Brooklyn College,5 Train,44,0.7955816733550258
+360,Pelham Bay Park - Bx,361,Buhre Av - Bx,6 Train,1,0.7314023503742481
+361,Buhre Av - Bx,362,Middletown Rd - Bx,6 Train,2,0.4550179697792787
+362,Middletown Rd - Bx,363,Westchester Sq-East Tremont Av - Bx,6 Train,3,0.7113536948262581
+363,Westchester Sq-East Tremont Av - Bx,364,Zerega Av - Bx,6 Train,4,0.5111824210398721
+364,Zerega Av - Bx,365,Castle Hill Av - Bx,6 Train,5,0.4308966459885688
+365,Castle Hill Av - Bx,366,Parkchester - Bx,6 Train,6,0.8152243466248308
+366,Parkchester - Bx,367,St Lawrence Av - Bx,6 Train,7,0.6032799622661277
+367,St Lawrence Av - Bx,368,Morrison Av-Soundview - Bx,6 Train,8,0.6210389947838937
+368,Morrison Av-Soundview - Bx,369,Elder Av - Bx,6 Train,9,0.40430432074139727
+369,Elder Av - Bx,370,Whitlock Av - Bx,6 Train,10,0.6416436666665084
+370,Whitlock Av - Bx,371,Hunts Point Av - Bx,6 Train,11,0.7165312785141071
+371,Hunts Point Av - Bx,372,Longwood Av - Bx,6 Train,12,0.7317460464945956
+372,Longwood Av - Bx,373,E 149 St - Bx,6 Train,13,0.7825135894975294
+373,E 149 St - Bx,374,E 143 St-Mary's St - Bx,6 Train,14,0.4822494850083429
+374,E 143 St-Mary's St - Bx,375,Cypress Av - Bx,6 Train,15,0.6539370544646378
+375,Cypress Av - Bx,376,Brook Av - Bx,6 Train,16,0.5011341135506824
+376,Brook Av - Bx,377,3 Av-138 St - Bx,6 Train,17,0.6646386081883425
+377,3 Av-138 St - Bx,392,125 St - M,6 Train,18,1.1942957204619487
+392,125 St - M,393,116 St - M,6 Train,19,0.6999374088594332
+393,116 St - M,394,110 St - M,6 Train,20,0.4584411843547919
+394,110 St - M,395,103 St - M,6 Train,21,0.5616034806792302
+395,103 St - M,396,96 St - M,6 Train,22,0.6258750874551903
+396,96 St - M,397,86 St - M,6 Train,23,0.7854867296430957
+397,86 St - M,398,77 St - M,6 Train,24,0.7459974735223837
+398,77 St - M,399,68 St-Hunter College - M,6 Train,25,0.6959932406403734
+399,68 St-Hunter College - M,400,59 St - M,6 Train,26,0.7133568998562999
+400,59 St - M,401,51 St - M,6 Train,27,0.6884292262083486
+401,51 St - M,402,Grand Central-42 St - M,6 Train,28,0.7236652658991969
+402,Grand Central-42 St - M,403,33 St - M,6 Train,29,0.7713392952111947
+403,33 St - M,404,28 St - M,6 Train,30,0.38219442472919796
+404,28 St - M,405,23 St - M,6 Train,31,0.4071662549239509
+405,23 St - M,406,14 St-Union Sq - M,6 Train,32,0.6425997848189432
+406,14 St-Union Sq - M,407,Astor Pl - M,6 Train,33,0.5221920616253838
+407,Astor Pl - M,525,Bleeker St - M,6 Train,34,0.5612441548950605
+525,Bleeker St - M,409,Spring St - M,6 Train,35,0.4424926854970163
+409,Spring St - M,410,Canal St - M,6 Train,36,0.46630982806074855
+410,Canal St - M,411,Brooklyn Bridge-City Hall - M,6 Train,37,0.7191981519048392
+447,Flushing-Main St - Q,448,Mets-Willets Point - Q,7 Train,1,1.425406912686146
+448,Mets-Willets Point - Q,449,111 St - Q,7 Train,2,0.8787737234033315
+449,111 St - Q,450,103 St-Corona Plaza - Q,7 Train,3,0.6542229301446193
+450,103 St-Corona Plaza - Q,451,Junction Blvd - Q,7 Train,4,0.5806388684783266
+451,Junction Blvd - Q,452,90 St-Elmhurst Av - Q,7 Train,5,0.6025163138488828
+452,90 St-Elmhurst Av - Q,453,82 St-Jackson Hts - Q,7 Train,6,0.6025389949308673
+453,82 St-Jackson Hts - Q,454,74 St-Broadway - Q,7 Train,7,0.6546428883625094
+454,74 St-Broadway - Q,455,69 St - Q,7 Train,8,0.42595528226106166
+455,69 St - Q,456,61 St-Woodside - Q,7 Train,9,0.5597600870709195
+456,61 St-Woodside - Q,457,52 St - Q,7 Train,10,0.8224481339828851
+457,52 St - Q,458,46 St-Bliss St - Q,7 Train,11,0.5086000311973328
+458,46 St-Bliss St - Q,459,40 St-Lowery St - Q,7 Train,12,0.47568106913135594
+459,40 St-Lowery St - Q,460,33 St-Rawson St - Q,7 Train,13,0.5949022894721617
+460,33 St-Rawson St - Q,461,Queensboro Plaza - Q,7 Train,14,1.022580283012772
+461,Queensboro Plaza - Q,462,Court Sq - Q,7 Train,15,0.5817594368522798
+462,Court Sq - Q,463,Hunters Point Av - Q,7 Train,16,0.6167331594982131
+463,Hunters Point Av - Q,464,Vernon Blvd-Jackson Av - Q,7 Train,17,0.39564758609901685
+464,Vernon Blvd-Jackson Av - Q,465,Grand Central-42 St - M,7 Train,18,2.1303654977069666
+465,Grand Central-42 St - M,466,5 Av - M,7 Train,19,0.5652093632698149
+466,5 Av - M,467,Times Sq-42 St - M,7 Train,20,0.51642241468818
+467,Times Sq-42 St - M,471,34 St-Hudson Yards - M,7 Train,21,1.1985154042542754
+143,Inwood-207 St,144,Dyckman St,A Train,1,0.6831172343720432
+144,Dyckman St,145,190 St,A Train,2,0.9246603094513498
+145,190 St,146,181 St,A Train,3,0.8748298378111257
+146,181 St,147,175 St,A Train,4,0.5003379360543528
+147,175 St,148,168 St,A Train,5,0.7419900611274413
+148,168 St,151,145 St,A Train,6,1.8147648805415
+151,145 St,153,125 St,A Train,7,1.667205161860535
+153,125 St,161,59 St-Columbus Circle,A Train,8,5.365296156563227
+161,59 St-Columbus Circle,163,42 St/Port Authority Bus Terminal,A Train,9,1.3952314876989127
+163,42 St/Port Authority Bus Terminal,164,34 St-Penn Station,A Train,10,0.6376070406450747
+164,34 St-Penn Station,166,14 St,A Train,11,1.447047465853558
+166,14 St,524,W 4 St-Washington Sq,A Train,12,0.9709703804768763
+524,W 4 St-Washington Sq,169,Canal St,A Train,13,1.3237310574004353
+169,Canal St,170,Chambers St,A Train,14,0.7982404154020254
+170,Chambers St,172,Fulton St,A Train,15,0.4416917143268822
+172,Fulton St,173,High St,A Train,16,1.8843018935590097
+173,High St,174,Jay St-MetroTech,A Train,17,0.8233829150128378
+174,Jay St-MetroTech,175,Hoyt-Schermerhorn,A Train,18,0.4718139917708299
+175,Hoyt-Schermerhorn,179,Nostrand Av,A Train,19,3.049567298974785
+179,Nostrand Av,181,Utica Av,A Train,20,1.6652593536984084
+181,Utica Av,184,Broadway Junction,A Train,21,2.146071867227966
+184,Broadway Junction,188,Euclid Av,A Train,22,2.81983393438742
+188,Euclid Av,189,Grant Av,A Train,23,0.6232410010170897
+189,Grant Av,190,80 St,A Train,24,0.5726521219937443
+190,80 St,191,88 St,A Train,25,0.63647152281072
+191,88 St,192,Rockaway Blvd,A Train,26,0.6456064982235095
+192,Rockaway Blvd,196,Aqueduct Racetrack,A Train,30,1.1528594603957654
+196,Aqueduct Racetrack,197,Aqueduct-North Conduit Av,A Train,31,0.4707252394295989
+197,Aqueduct-North Conduit Av,198,Howard Beach-JFK Airport,A Train,32,0.9190119055311864
+198,Howard Beach-JFK Airport,199,Broad Channel,A Train,33,5.918250608959221
+199,Broad Channel,204,Beach 67 St,A Train,34,2.518055752600463
+204,Beach 67 St,205,Beach 60 St,A Train,35,0.7274620572843313
+205,Beach 60 St,206,Beach 44 St,A Train,36,1.0581081018165477
+206,Beach 44 St,207,Beach 36 St,A Train,37,0.7158881750103337
+207,Beach 36 St,208,Beach 25 St,A Train,38,0.7753551568528959
+208,Beach 25 St,209,Far Rockaway-Mott Av,A Train,39,0.6656051984606854
+211,Bedford Park Blvd - Bx,212,Kingsbridge Rd - Bx,B Train,1,0.8788843134344577
+212,Kingsbridge Rd - Bx,213,Fordham Rd - Bx,B Train,2,0.7254744545760485
+213,Fordham Rd - Bx,214,182-183 Sts - Bx,B Train,3,0.6308981007839006
+214,182-183 Sts - Bx,215,Tremont Av - Bx,B Train,4,0.7359893256257999
+215,Tremont Av - Bx,216,174-175 Sts - Bx,B Train,5,0.6496046870164083
+216,174-175 Sts - Bx,217,170 St - Bx,B Train,6,0.7829418567957748
+217,170 St - Bx,218,167 St - Bx,B Train,7,0.7473785619196096
+218,167 St - Bx,219,161 St-Yankee Stadium - Bx,B Train,8,0.8908065509435049
+219,161 St-Yankee Stadium - Bx,220,155 St - M,B Train,9,1.0853015007697235
+220,155 St - M,151,145 St - M,B Train,10,0.7807788587762604
+151,145 St - M,152,135 St - M,B Train,11,0.8186813073519884
+152,135 St - M,153,125 St - M,B Train,12,0.8516173708805446
+153,125 St - M,154,116 St - M,B Train,13,0.7030984455600883
+154,116 St - M,155,Cathedral Pkwy (110 St) - M,B Train,14,0.569694130692662
+155,Cathedral Pkwy (110 St) - M,156,103 St - M,B Train,15,0.5730953082764847
+156,103 St - M,157,96 St - M,B Train,16,0.5650912877112605
+157,96 St - M,158,86 St - M,B Train,17,0.7337810920832913
+158,86 St - M,159,81 St-Museum of Natural History - M,B Train,18,0.5630411843484588
+159,81 St-Museum of Natural History - M,160,72 St - M,B Train,19,0.7420477249679557
+160,72 St - M,161,59 St-Columbus Circle - M,B Train,20,0.9271923284928917
+161,59 St-Columbus Circle - M,277,7 Av - M,B Train,21,0.6042907517065166
+277,7 Av - M,225,47-50 Sts-Rockefeller Ctr - M,B Train,22,0.46762756736683925
+225,47-50 Sts-Rockefeller Ctr - M,226,42 St-Bryant Park - M,B Train,23,0.5642080936773409
+226,42 St-Bryant Park - M,227,34 St-Herald Sq - M,B Train,24,0.5708259328290985
+227,34 St-Herald Sq - M,524,W 4 St-Washington Sq - M,B Train,25,2.225654078558823
+524,W 4 St-Washington Sq - M,230,Broadway-Lafayette St - M,B Train,26,0.8522864484467134
+230,Broadway-Lafayette St - M,231,Grand St - M,B Train,27,0.8085293602901248
+231,Grand St - M,26,DeKalb Av - Bk,B Train,28,3.2328986039777803
+26,DeKalb Av - Bk,40,Atlantic Av-Barclays Ctr - Bk,B Train,29,0.8028258690975573
+40,Atlantic Av-Barclays Ctr - Bk,41,7 Av - Bk,B Train,30,0.907947397240856
+41,7 Av - Bk,42,Prospect Park - Bk,B Train,31,1.9169451400771074
+42,Prospect Park - Bk,44,Church Av - Bk,B Train,32,1.2343805298338908
+44,Church Av - Bk,47,Newkirk Plaza - Bk,B Train,33,1.7174796738889657
+47,Newkirk Plaza - Bk,51,Kings Hwy - Bk,B Train,34,2.9677560262522116
+51,Kings Hwy - Bk,54,Sheepshead Bay - Bk,B Train,35,2.4399420489598196
+54,Sheepshead Bay - Bk,55,Brighton Beach - Bk,B Train,36,1.198130150883879
+148,168 St - M,149,163 St-Amsterdam Av - M,C Train,1,0.5240236723219093
+149,163 St-Amsterdam Av - M,150,155 St - M,C Train,2,0.6260691044198367
+150,155 St - M,151,145 St - M,C Train,3,0.6770155227396938
+151,145 St - M,152,135 St - M,C Train,4,0.8186813073519884
+152,135 St - M,153,125 St - M,C Train,5,0.8516173708805446
+153,125 St - M,154,116 St - M,C Train,6,0.7030984455600883
+154,116 St - M,155,Cathedral Pkwy (110 St) - M,C Train,7,0.569694130692662
+155,Cathedral Pkwy (110 St) - M,156,103 St - M,C Train,8,0.5730953082764847
+156,103 St - M,157,96 St - M,C Train,9,0.5650912877112605
+157,96 St - M,158,86 St - M,C Train,10,0.7337810920832913
+158,86 St - M,159,81 St-Museum of Natural History - M,C Train,11,0.5630411843484588
+159,81 St-Museum of Natural History - M,160,72 St - M,C Train,12,0.7420477249679557
+160,72 St - M,161,59 St-Columbus Circle - M,C Train,13,0.9271923284928917
+161,59 St-Columbus Circle - M,162,50 St - M,C Train,14,0.7414059624110957
+162,50 St - M,163,42 St/Port Authority Bus Terminal - M,C Train,15,0.6538256359023602
+163,42 St/Port Authority Bus Terminal - M,164,34 St-Penn Station - M,C Train,16,0.6376070406450747
+164,34 St-Penn Station - M,165,23 St - M,C Train,17,0.8104787043820745
+165,23 St - M,166,14 St - M,C Train,18,0.6365687888430641
+166,14 St - M,524,W 4-Washington Sq - M,C Train,19,0.9709703804768763
+524,W 4-Washington Sq - M,168,Spring St - M,C Train,20,0.7148989095266394
+168,Spring St - M,169,Canal St - M,C Train,21,0.613767282456515
+169,Canal St - M,170,Chambers St - M,C Train,22,0.7982404154020254
+170,Chambers St - M,172,Fulton St - M,C Train,23,0.4416917143268822
+172,Fulton St - M,173,High St - Bk,C Train,24,1.8843018935590097
+173,High St - Bk,174,Jay St-MetroTech - Bk,C Train,25,0.8233829150128378
+174,Jay St-MetroTech - Bk,175,Hoyt-Schermerhorn - Bk,C Train,26,0.4718139917708299
+175,Hoyt-Schermerhorn - Bk,176,Lafayette Av - Bk,C Train,27,0.9686892278225852
+176,Lafayette Av - Bk,177,Clinton-Washington Avs - Bk,C Train,28,0.7535448409275608
+177,Clinton-Washington Avs - Bk,178,Franklin Av - Bk,C Train,29,0.7864486698438996
+178,Franklin Av - Bk,179,Nostrand Av - Bk,C Train,30,0.5515713043395901
+179,Nostrand Av - Bk,180,Kingston-Throop Avs - Bk,C Train,31,0.8088744239091544
+180,Kingston-Throop Avs - Bk,181,Utica Av - Bk,C Train,32,0.8563852010194118
+181,Utica Av - Bk,182,Ralph Av - Bk,C Train,33,0.8406279871537885
+182,Ralph Av - Bk,183,Rockaway Av - Bk,C Train,34,0.7473818891107364
+183,Rockaway Av - Bk,184,Broadway Junction - Bk,C Train,35,0.5590957091691022
+184,Broadway Junction - Bk,185,Liberty Av - Bk,C Train,36,0.85118542812938
+185,Liberty Av - Bk,186,Van Siclen Av - Bk,C Train,37,0.5603663606480699
+186,Van Siclen Av - Bk,187,Shepherd Av - Bk,C Train,38,0.8255251714974863
+187,Shepherd Av - Bk,188,Euclid Av - Bk,C Train,39,0.7420416136845247
+210,Norwood-205 St - Bx,211,Bedford Park Blvd - Bx,D Train,1,0.7179013766360115
+211,Bedford Park Blvd - Bx,212,Kingsbridge Rd - Bx,D Train,2,0.8788843134344577
+212,Kingsbridge Rd - Bx,213,Fordham Rd - Bx,D Train,3,0.7254744545760485
+213,Fordham Rd - Bx,214,182-183 Sts - Bx,D Train,4,0.6308981007839006
+214,182-183 Sts - Bx,215,Tremont Av - Bx,D Train,5,0.7359893256257999
+215,Tremont Av - Bx,216,174-175 Sts - Bx,D Train,6,0.6496046870164083
+216,174-175 Sts - Bx,217,170 St - Bx,D Train,7,0.7829418567957748
+217,170 St - Bx,218,167 St - Bx,D Train,8,0.7473785619196096
+218,167 St - Bx,219,161 St-Yankee Stadium - Bx,D Train,9,0.8908065509435049
+219,161 St-Yankee Stadium - Bx,220,155 St - M,D Train,10,1.0853015007697235
+220,155 St - M,151,145 St - M,D Train,11,0.7807788587762604
+151,145 St - M,153,125 St - M,D Train,12,1.667205161860535
+153,125 St - M,161,59 St-Columbus Circle - M,D Train,13,5.365296156563227
+161,59 St-Columbus Circle - M,277,7 Av - M,D Train,14,0.6042907517065166
+277,7 Av - M,225,47-50 Sts-Rockefeller Ctr - M,D Train,15,0.46762756736683925
+225,47-50 Sts-Rockefeller Ctr - M,226,42 St-Bryant Pk - M,D Train,16,0.5642080936773409
+226,42 St-Bryant Pk - M,227,34 St-Herald Sq - M,D Train,17,0.5708259328290985
+227,34 St-Herald Sq - M,524,W 4 St-Washington Sq - M,D Train,18,2.225654078558823
+524,W 4 St-Washington Sq - M,230,Broadway-Lafayette St - M,D Train,19,0.8522864484467134
+230,Broadway-Lafayette St - M,231,Grand St - M,D Train,20,0.8085293602901248
+231,Grand St - M,27,Atlantic Av-Barclays Ctr - Bk,D Train,21,4.048422669759325
+27,Atlantic Av-Barclays Ctr - Bk,32,36 St - Bk,D Train,22,3.7962863099775066
+32,36 St - Bk,59,9 Av - Bk,D Train,23,1.2547959842686542
+59,9 Av - Bk,60,Fort Hamilton Pkwy - Bk,D Train,24,0.5980086962799966
+60,Fort Hamilton Pkwy - Bk,61,50 St - Bk,D Train,25,0.5191300938149772
+61,50 St - Bk,62,55 St - Bk,D Train,26,0.5396203515600334
+62,55 St - Bk,63,62 St - Bk,D Train,27,0.5647034873288606
+63,62 St - Bk,64,71 St - Bk,D Train,28,0.7831880245539787
+64,71 St - Bk,65,79 St - Bk,D Train,29,0.6928106239826439
+65,79 St - Bk,66,18 Av - Bk,D Train,30,0.6240789471167374
+66,18 Av - Bk,67,20 Av - Bk,D Train,31,0.48320746729134856
+67,20 Av - Bk,68,Bay Pkwy - Bk,D Train,32,0.47893164478861516
+68,Bay Pkwy - Bk,69,25 Av - Bk,D Train,33,0.7445601540619087
+69,25 Av - Bk,70,Bay-50 St - Bk,D Train,34,1.01891224233796
+70,Bay-50 St - Bk,58,Coney Island-Stillwell Av - Bk,D Train,35,1.2876129375442118
+278,Jamaica Center-Parsons/Archer - Q,279,Sutphin Blvd-Archer Av-JFK Airport - Q,E Train,1,0.6070691939628206
+279,Sutphin Blvd-Archer Av-JFK Airport - Q,280,Jamaica-Van Wyck - Q,E Train,2,0.7842941233763273
+280,Jamaica-Van Wyck - Q,258,Briarwood - Q,E Train,3,0.7992345132256898
+258,Briarwood - Q,259,Kew Gardens-Union Tpke - Q,E Train,4,1.0562960086741633
+259,Kew Gardens-Union Tpke - Q,260,75 Av - Q,E Train,5,0.6858966758181058
+260,75 Av - Q,261,Forest Hills-71 Av - Q,E Train,6,0.7123668352036417
+261,Forest Hills-71 Av - Q,267,Jackson Hts-Roosevelt Av - Q,E Train,7,4.8227760030168865
+267,Jackson Hts-Roosevelt Av - Q,273,Queens Plaza - Q,E Train,8,3.8757063655579342
+273,Queens Plaza - Q,274,Court Sq-23 St - Q,E Train,9,0.748253000605871
+274,Court Sq-23 St - Q,275,Lexington Av/53 St - M,E Train,10,2.2217597049979125
+275,Lexington Av/53 St - M,276,5 Av/53 St - M,E Train,11,0.5954199615853005
+276,5 Av/53 St - M,277,7 Av - M,E Train,12,0.6176833831884082
+277,7 Av - M,162,50 St - M,E Train,13,0.368883111066895
+162,50 St - M,163,42 St/Port Authority Bus Terminal - M,E Train,14,0.6538256359023602
+163,42 St/Port Authority Bus Terminal - M,164,34 St-Penn Station - M,E Train,15,0.6376070406450747
+164,34 St-Penn Station - M,165,23 St - M,E Train,16,0.8104787043820745
+165,23 St - M,166,14 St - M,E Train,17,0.6365687888430641
+166,14 St - M,524,W 4 St-Washington Sq - M,E Train,18,0.9709703804768763
+524,W 4 St-Washington Sq - M,168,Spring St - M,E Train,19,0.7148989095266394
+168,Spring St - M,169,Canal St - M,E Train,20,0.613767282456515
+169,Canal St - M,171,World Trade Center - M,E Train,21,0.9935264009597916
+254,Jamaica-179 St - Q,255,169 St - Q,F Train,1,0.8596612302707589
+255,169 St - Q,256,Parsons Blvd - Q,F Train,2,0.8808688268262977
+256,Parsons Blvd - Q,257,Sutphin Blvd - Q,F Train,3,0.6647749214588512
+257,Sutphin Blvd - Q,258,Briarwood - Q,F Train,4,0.9287630777945001
+258,Briarwood - Q,259,Kew Gardens-Union Tpke - Q,F Train,5,1.0562960086741633
+259,Kew Gardens-Union Tpke - Q,260,75 Av - Q,F Train,6,0.6858966758181058
+260,75 Av - Q,261,Forest Hills-71 Av - Q,F Train,7,0.7123668352036417
+261,Forest Hills-71 Av - Q,267,Jackson Hts-Roosevelt Av - Q,F Train,8,4.8227760030168865
+267,Jackson Hts-Roosevelt Av - Q,221,21 St-Queensbridge - Q,F Train,9,4.418707272147569
+221,21 St-Queensbridge - Q,222,Roosevelt Island - M,F Train,10,1.035792543427265
+222,Roosevelt Island - M,223,Lexington Av/63 St - M,F Train,11,1.24244690340068
+223,Lexington Av/63 St - M,224,57 St - M,F Train,12,0.9575845839424144
+224,57 St - M,225,47-50 Sts Rockefeller Ctr - M,F Train,13,0.67470566804413
+225,47-50 Sts Rockefeller Ctr - M,226,42 St-Bryant Pk - M,F Train,14,0.5642080936773409
+226,42 St-Bryant Pk - M,227,34 St-Herald Sq - M,F Train,15,0.5708259328290985
+227,34 St-Herald Sq - M,228,23 St - M,F Train,16,0.8694349647656056
+228,23 St - M,229,14 St - M,F Train,17,0.5906111192566561
+229,14 St - M,524,W 4 St-Washington Sq - M,F Train,18,0.7656083053376324
+524,W 4 St-Washington Sq - M,230,Broadway-Lafayette St - M,F Train,19,0.8522864484467134
+230,Broadway-Lafayette St - M,232,2 Av - M,F Train,20,0.5685257363831301
+232,2 Av - M,233,Delancey St-Essex St - M,F Train,21,0.5544682710320479
+233,Delancey St-Essex St - M,234,East Broadway - M,F Train,22,0.5713985854046978
+234,East Broadway - M,235,York St - Bk,F Train,23,1.3997413054352255
+235,York St - Bk,174,Jay St-MetroTech - Bk,F Train,24,1.0085462924191724
+174,Jay St-MetroTech - Bk,236,Bergen St - Bk,F Train,25,0.7498624318306006
+236,Bergen St - Bk,237,Carroll St - Bk,F Train,26,0.7393037711217507
+237,Carroll St - Bk,238,Smith-9 Sts - Bk,F Train,27,0.7515006183532343
+238,Smith-9 Sts - Bk,239,4 Av-9 St - Bk,F Train,28,0.6379248451583103
+239,4 Av-9 St - Bk,240,7 Av - Bk,F Train,29,0.9145495623147337
+240,7 Av - Bk,241,15 St-Prospect Park - Bk,F Train,30,0.6602790225523457
+241,15 St-Prospect Park - Bk,242,Fort Hamilton Pkwy - Bk,F Train,31,1.1107561796972607
+242,Fort Hamilton Pkwy - Bk,243,Church Av - Bk,F Train,32,0.8186701957041858
+243,Church Av - Bk,244,Ditmas Av - Bk,F Train,33,0.8900042389708587
+244,Ditmas Av - Bk,245,18 Av - Bk,F Train,34,0.7148650010025047
+245,18 Av - Bk,246,Avenue I - Bk,F Train,35,0.49804662312973963
+246,Avenue I - Bk,247,Bay Pkwy - Bk,F Train,36,0.5114829684898496
+247,Bay Pkwy - Bk,248,Avenue N - Bk,F Train,37,0.6323621287166818
+248,Avenue N - Bk,249,Avenue P - Bk,F Train,38,0.6960664724668431
+249,Avenue P - Bk,250,Kings Hwy - Bk,F Train,39,0.6392534829902474
+250,Kings Hwy - Bk,251,Avenue U - Bk,F Train,40,0.7999206627796557
+251,Avenue U - Bk,252,Avenue X - Bk,F Train,41,0.7203858486734919
+252,Avenue X - Bk,253,Neptune Av - Bk,F Train,42,0.9576680438971624
+253,Neptune Av - Bk,57,W 8 St-NY Aquarium - Bk,F Train,43,0.5551765781653232
+57,W 8 St-NY Aquarium - Bk,58,Coney Island-Stillwell Av - Bk,F Train,44,0.469728398639229
+281,Court Sq - Q,282,21 St - Q,G Train,1,0.568307410653266
+282,21 St - Q,283,Greenpoint Av - Bk,G Train,2,1.4686062801920154
+283,Greenpoint Av - Bk,284,Nassau Av - Bk,G Train,3,0.7932828835365071
+284,Nassau Av - Bk,285,Metropolitan Av - Bk,G Train,4,1.3169351293445946
+285,Metropolitan Av - Bk,286,Broadway - Bk,G Train,5,0.7508578563475377
+286,Broadway - Bk,287,Flushing Av - Bk,G Train,6,0.6355096213096719
+287,Flushing Av - Bk,288,Myrtle Willoughby Avs - Bk,G Train,7,0.6536496839976228
+288,Myrtle Willoughby Avs - Bk,289,Bedford-Nostrand Avs - Bk,G Train,8,0.6665339607536831
+289,Bedford-Nostrand Avs - Bk,290,Classon Av - Bk,G Train,9,0.5584198068876536
+290,Classon Av - Bk,291,Clinton-Washington Avs - Bk,G Train,10,0.5773496225526344
+291,Clinton-Washington Avs - Bk,292,Fulton St - Bk,G Train,11,0.7277616907133653
+292,Fulton St - Bk,175,Hoyt-Schermerhorn - Bk,G Train,12,0.8256972532036653
+175,Hoyt-Schermerhorn - Bk,236,Bergen St - Bk,G Train,13,0.5584429024475479
+236,Bergen St - Bk,237,Carroll St - Bk,G Train,14,0.7393037711217507
+237,Carroll St - Bk,238,Smith-9 Sts - Bk,G Train,15,0.7515006183532343
+238,Smith-9 Sts - Bk,239,4 Av-9 Sts - Bk,G Train,16,0.6379248451583103
+239,4 Av-9 Sts - Bk,240,7 Av - Bk,G Train,17,0.9145495623147337
+240,7 Av - Bk,241,15 St-Prospect Park - Bk,G Train,18,0.6602790225523457
+241,15 St-Prospect Park - Bk,242,Fort Hamilton Pkwy - Bk,G Train,19,1.1107561796972607
+242,Fort Hamilton Pkwy - Bk,243,Church Av - Bk,G Train,20,0.8186701957041858
+278,Jamaica Center-Parsons/Archer - Q,279,Sutphin Blvd-Archer Av-JFK Airport - Q,J Train,1,0.6070691939628206
+279,Sutphin Blvd-Archer Av-JFK Airport - Q,80,121 St - Q,J Train,2,1.713399110786018
+80,121 St - Q,81,111 St - Q,J Train,3,0.7599282993153385
+81,111 St - Q,82,104 St - Q,J Train,4,0.7177801704289474
+82,104 St - Q,83,Woodhaven Blvd - Q,J Train,5,0.6277370394340964
+83,Woodhaven Blvd - Q,84,85 St-Forest Pkwy - Q,J Train,6,0.7289683148970827
+84,85 St-Forest Pkwy - Q,85,75 St-Elderts Ln - Q,J Train,7,0.613617230691014
+85,75 St-Elderts Ln - Q,86,Cypress Hills - Bk,J Train,8,0.48143678481620034
+86,Cypress Hills - Bk,87,Crescent St - Bk,J Train,9,0.757424487600051
+87,Crescent St - Bk,88,Norwood Av - Bk,J Train,10,0.5634326125721976
+88,Norwood Av - Bk,89,Cleveland St - Bk,J Train,11,0.4206271713363321
+89,Cleveland St - Bk,90,Van Siclen Av - Bk,J Train,12,0.6317127931898564
+90,Van Siclen Av - Bk,91,Alabama Av - Bk,J Train,13,0.5985401832033878
+91,Alabama Av - Bk,92,Broadway Junction - Bk,J Train,14,0.5671675986074493
+92,Broadway Junction - Bk,93,Chauncey St - Bk,J Train,15,0.6274851436384327
+93,Chauncey St - Bk,94,Halsey St - Bk,J Train,16,0.6436597223662006
+94,Halsey St - Bk,95,Gates Av - Bk,J Train,17,0.6027206197861105
+95,Gates Av - Bk,96,Kosciuszko St - Bk,J Train,18,0.6890412331104473
+96,Kosciuszko St - Bk,97,Myrtle Av - Bk,J Train,19,0.7193932577428506
+97,Myrtle Av - Bk,98,Flushing Av - Bk,J Train,20,0.5725485116840208
+98,Flushing Av - Bk,99,Lorimer St - Bk,J Train,21,0.6644381435118548
+99,Lorimer St - Bk,100,Hewes St - Bk,J Train,22,0.607547910200655
+100,Hewes St - Bk,101,Marcy Av - Bk,J Train,23,0.4004719308830364
+101,Marcy Av - Bk,102,Delancey St-Essex St - M,J Train,24,2.7355610680945315
+102,Delancey St-Essex St - M,103,Bowery - M,J Train,25,0.5880422360320726
+103,Bowery - M,104,Canal St - M,J Train,26,0.5593980105667857
+104,Canal St - M,105,Chambers St - M,J Train,27,0.6149655759847954
+105,Chambers St - M,106,Fulton St - M,J Train,28,0.4753498572913891
+106,Fulton St - M,107,Broad St - M,J Train,29,0.5230812408972849
+115,8 Av - M,116,6 Av - M,L Train,1,0.5584479273832307
+116,6 Av - M,117,14 St-Union Sq - M,L Train,2,0.5835241559412389
+117,14 St-Union Sq - M,118,3 Av - M,L Train,3,0.44416256630224266
+118,3 Av - M,119,1 Av - M,L Train,4,0.4333996170612458
+119,1 Av - M,120,Bedford Av - Bk,L Train,5,2.579846524429354
+120,Bedford Av - Bk,121,Lorimer St - Bk,L Train,6,0.6625801960754012
+121,Lorimer St - Bk,122,Graham Av - Bk,L Train,7,0.5273686518732256
+122,Graham Av - Bk,123,Grand St - Bk,L Train,8,0.40915717321418305
+123,Grand St - Bk,124,Montrose Av - Bk,L Train,9,0.4706755112736367
+124,Montrose Av - Bk,125,Morgan Av - Bk,L Train,10,0.5919249172775666
+125,Morgan Av - Bk,126,Jefferson St - Bk,L Train,11,0.8641330146353815
+126,Jefferson St - Bk,127,DeKalb Av - Bk,L Train,12,0.4896726949588268
+127,DeKalb Av - Bk,128,Myrtle-Wyckoff Avs - Bk,L Train,13,0.7279449918397299
+128,Myrtle-Wyckoff Avs - Bk,129,Halsey St - Q,L Train,14,0.7869828049278297
+129,Halsey St - Q,130,Wilson Av - Bk,L Train,15,0.7603576581101348
+130,Wilson Av - Bk,131,Bushwick Av-Aberdeen St - Bk,L Train,16,0.6676918664755099
+131,Bushwick Av-Aberdeen St - Bk,132,Broadway Junction - Bk,L Train,17,0.47314548186553307
+132,Broadway Junction - Bk,133,Atlantic Av - Bk,L Train,18,0.3905915890789352
+133,Atlantic Av - Bk,134,Sutter Av - Bk,L Train,19,0.6714244901319305
+134,Sutter Av - Bk,135,Livonia Av - Bk,L Train,20,0.6042742458833511
+135,Livonia Av - Bk,136,New Lots Av - Bk,L Train,21,0.6006042696123414
+136,New Lots Av - Bk,137,East 105 St - Bk,L Train,22,0.9076015755494172
+137,East 105 St - Bk,138,Canarsie-Rockaway Pkwy - Bk,L Train,23,0.4792788371236683
+261,Forest Hills-71 Av - Q,262,67 Av - Q,M Train,1,0.8751880726070982
+262,67 Av - Q,263,63 Dr-Rego Park - Q,M Train,2,0.834909853306276
+263,63 Dr-Rego Park - Q,264,Woodhaven Blvd - Q,M Train,3,0.7376957376572616
+264,Woodhaven Blvd - Q,265,Grand Av-Newtown - Q,M Train,4,0.8016189239096986
+265,Grand Av-Newtown - Q,266,Elmhurst Av - Q,M Train,5,0.7272566572575405
+266,Elmhurst Av - Q,267,Jackson Hts-Roosevelt Av - Q,M Train,6,0.9130566969031272
+267,Jackson Hts-Roosevelt Av - Q,268,65 St - Q,M Train,7,0.6872992768350702
+268,65 St - Q,269,Northern Blvd - Q,M Train,8,0.7298437598626204
+269,Northern Blvd - Q,270,46 St - Q,M Train,9,0.7253293809827482
+270,46 St - Q,271,Steinway St - Q,M Train,10,0.6270619890377441
+271,Steinway St - Q,272,36 St - Q,M Train,11,0.865093460415163
+272,36 St - Q,273,Queens Plaza - Q,M Train,12,0.7901448563518934
+273,Queens Plaza - Q,274,Court Sq-23 St - Q,M Train,13,0.748253000605871
+274,Court Sq-23 St - Q,275,Lexington Av/53 St - M,M Train,14,2.2217597049979125
+275,Lexington Av/53 St - M,276,5 Av/53 St - M,M Train,15,0.5954199615853005
+276,5 Av/53 St - M,225,47-50 Sts-Rockefeller Ctr - M,M Train,16,0.5407089872247375
+225,47-50 Sts-Rockefeller Ctr - M,226,42 St-Bryant Pk - M,M Train,17,0.5642080936773409
+226,42 St-Bryant Pk - M,227,34 St-Herald Sq - M,M Train,18,0.5708259328290985
+227,34 St-Herald Sq - M,228,23 St - M,M Train,19,0.8694349647656056
+228,23 St - M,229,14 St - M,M Train,20,0.5906111192566561
+229,14 St - M,524,W 4 St-Washington Sq - M,M Train,21,0.7656083053376324
+524,W 4 St-Washington Sq - M,230,Broadway-Lafayette St - M,M Train,22,0.8522864484467134
+230,Broadway-Lafayette St - M,102,Delancey St-Essex St - M,M Train,23,1.0717264937345137
+102,Delancey St-Essex St - M,101,Marcy Av - Bk,M Train,24,2.7355610680945315
+101,Marcy Av - Bk,100,Hewes St - Bk,M Train,25,0.4004719308830364
+100,Hewes St - Bk,99,Lorimer St - Bk,M Train,26,0.607547910200655
+99,Lorimer St - Bk,98,Flushing Av - Bk,M Train,27,0.6644381435118548
+98,Flushing Av - Bk,97,Myrtle Av - Bk,M Train,28,0.5725485116840208
+97,Myrtle Av - Bk,114,Central Av - Bk,M Train,29,0.7000903984675355
+114,Central Av - Bk,113,Knickerbocker Av - Bk,M Train,30,0.6541361390665527
+113,Knickerbocker Av - Bk,112,Myrtle-Wyckoff Avs - Bk,M Train,31,0.6234414871410241
+112,Myrtle-Wyckoff Avs - Bk,111,Seneca Av - Q,M Train,32,0.5390720130188839
+111,Seneca Av - Q,110,Forest Av - Q,M Train,33,0.4343022955245752
+110,Forest Av - Q,109,Fresh Pond Rd - Q,M Train,34,0.6377916463747461
+109,Fresh Pond Rd - Q,108,Middle Village-Metropolitan Av - Q,M Train,35,0.7845129077327582
+1,Astoria Ditmars Blvd - Q,2,Astoria Blvd - Q,N Train,1,0.7221869355062508
+2,Astoria Blvd - Q,3,30 Av - Q,N Train,2,0.49336625839797943
+3,30 Av - Q,4,Broadway - Q,N Train,3,0.6474541512006545
+4,Broadway - Q,5,36 Av - Q,N Train,4,0.6545430743229531
+5,36 Av - Q,6,39 Av - Q,N Train,5,0.511796227657714
+6,39 Av - Q,461,Queensboro Plaza - Q,N Train,6,0.6774302980812341
+461,Queensboro Plaza - Q,7,Lexington Av/59 St - M,N Train,7,2.645196731867001
+7,Lexington Av/59 St - M,8,5 Av/59 St - M,N Train,8,0.5658506020401374
+8,5 Av/59 St - M,9,57 St-7 Av - M,N Train,9,0.6159399172983318
+9,57 St-7 Av - M,10,49 St - M,N Train,10,0.6053520673232845
+10,49 St - M,11,Times Sq-42 St - M,N Train,11,0.62175834559399
+11,Times Sq-42 St - M,12,34 St-Herald Sq - M,N Train,12,0.5765207115821285
+12,34 St-Herald Sq - M,15,14 St-Union Sq - M,N Train,13,1.5536718021307256
+15,14 St-Union Sq - M,19,Canal St - M,N Train,14,2.101916153840223
+19,Canal St - M,27,Atlantic Av-Barclays Ctr - Bk,N Train,15,4.27004200296623
+27,Atlantic Av-Barclays Ctr - Bk,32,36 St - Bk,N Train,16,3.7962863099775066
+32,36 St - Bk,35,59 St - Bk,N Train,17,1.952057837217758
+35,59 St - Bk,71,8 Av - Bk,N Train,18,0.872220207563473
+71,8 Av - Bk,72,Fort Hamilton Pkwy - Bk,N Train,19,0.6752934108508473
+72,Fort Hamilton Pkwy - Bk,73,New Utrecht Av - Bk,N Train,20,1.0517173785584581
+73,New Utrecht Av - Bk,74,18 Av - Bk,N Train,21,0.6828970430860172
+74,18 Av - Bk,75,20 Av - Bk,N Train,22,0.5816301426514334
+75,20 Av - Bk,76,Bay Pkwy - Bk,N Train,23,0.677503631988792
+76,Bay Pkwy - Bk,77,Kings Hwy - Bk,N Train,24,0.8865788207249006
+77,Kings Hwy - Bk,78,Avenue U - Bk,N Train,25,0.7245176508098302
+78,Avenue U - Bk,79,86 St - Bk,N Train,26,0.5339189130333287
+79,86 St - Bk,58,Coney Island-Stillwell Av - Bk,N Train,27,1.7199685784215866
+475,96 St - M,476,86 St - M,Q Train,1,0.8142636561871262
+476,86 St - M,477,72 St - M,Q Train,2,1.15518140543957
+477,72 St - M,223,Lexington Av/63 St - M,Q Train,3,0.7964344071982964
+223,Lexington Av/63 St - M,9,57 St-7 Av - M,Q Train,4,1.22496899930328
+9,57 St-7 Av - M,11,Times Sq-42 St - M,Q Train,5,1.2239569537677297
+11,Times Sq-42 St - M,12,34 St-Herald Sq - M,Q Train,6,0.5765207115821285
+12,34 St-Herald Sq - M,15,14 St-Union Sq - M,Q Train,7,1.5536718021307256
+15,14 St-Union Sq - M,19,Canal St - M,Q Train,8,2.101916153840223
+19,Canal St - M,26,DeKalb Av - Bk,Q Train,9,3.4623278456165365
+26,DeKalb Av - Bk,40,Atlantic Av-Barclays Ctr - Bk,Q Train,10,0.8028258690975573
+40,Atlantic Av-Barclays Ctr - Bk,41,7 Av - Bk,Q Train,11,0.907947397240856
+41,7 Av - Bk,42,Prospect Park - Bk,Q Train,12,1.9169451400771074
+42,Prospect Park - Bk,43,Parkside Av - Bk,Q Train,13,0.7058229493989607
+43,Parkside Av - Bk,44,Church Av - Bk,Q Train,14,0.5444911406430347
+44,Church Av - Bk,45,Beverly Rd - Bk,Q Train,15,0.7334704103391096
+45,Beverly Rd - Bk,46,Cortelyou Rd - Bk,Q Train,16,0.34885414460021874
+46,Cortelyou Rd - Bk,47,Newkirk Plaza - Bk,Q Train,17,0.6565046481233809
+47,Newkirk Plaza - Bk,48,Avenue H - Bk,Q Train,18,0.6535607004201236
+48,Avenue H - Bk,49,Avenue J - Bk,Q Train,19,0.47572644174337486
+49,Avenue J - Bk,50,Avenue M - Bk,Q Train,20,0.833642446844871
+50,Avenue M - Bk,51,Kings Hwy - Bk,Q Train,21,1.0048493236118503
+51,Kings Hwy - Bk,52,Avenue U - Bk,Q Train,22,1.0529807550892432
+52,Avenue U - Bk,53,Neck Rd - Bk,Q Train,23,0.45542397429937903
+53,Neck Rd - Bk,54,Sheepshead Bay - Bk,Q Train,24,0.9323552865278303
+54,Sheepshead Bay - Bk,55,Brighton Beach - Bk,Q Train,25,1.198130150883879
+55,Brighton Beach - Bk,56,Ocean Pkwy - Bk,Q Train,26,0.6191038655396103
+56,Ocean Pkwy - Bk,57,W 8 St-NY Aquarium - Bk,Q Train,27,0.6285289618041632
+57,W 8 St-NY Aquarium - Bk,58,Coney Island-Stillwell Av - Bk,Q Train,28,0.469728398639229
+261,Forest Hills-71 Av - Q,262,67 Av - Q,R Train,1,0.8751880726070982
+262,67 Av - Q,263,63 Dr-Rego Park - Q,R Train,2,0.834909853306276
+263,63 Dr-Rego Park - Q,264,Woodhaven Blvd - Q,R Train,3,0.7376957376572616
+264,Woodhaven Blvd - Q,265,Grand Av - Q,R Train,4,0.8016189239096986
+265,Grand Av - Q,266,Elmhurst Av - Q,R Train,5,0.7272566572575405
+266,Elmhurst Av - Q,267,Jackson Hts-Roosevelt Av - Q,R Train,6,0.9130566969031272
+267,Jackson Hts-Roosevelt Av - Q,268,65 St - Q,R Train,7,0.6872992768350702
+268,65 St - Q,269,Northern Blvd - Q,R Train,8,0.7298437598626204
+269,Northern Blvd - Q,270,46 St - Q,R Train,9,0.7253293809827482
+270,46 St - Q,271,Steinway St - Q,R Train,10,0.6270619890377441
+271,Steinway St - Q,272,36 St - Q,R Train,11,0.865093460415163
+272,36 St - Q,273,Queens Plaza - Q,R Train,12,0.7901448563518934
+273,Queens Plaza - Q,7,Lexington Av/59 St - M,R Train,13,2.9509096860387065
+7,Lexington Av/59 St - M,8,5 Av/59 St - M,R Train,14,0.5658506020401374
+8,5 Av/59 St - M,9,57 St-7 Av - M,R Train,15,0.6159399172983318
+9,57 St-7 Av - M,10,49 St - M,R Train,16,0.6053520673232845
+10,49 St - M,11,Times Square-42 St - M,R Train,17,0.62175834559399
+11,Times Square-42 St - M,12,34 St-Herald Square - M,R Train,18,0.5765207115821285
+12,34 St-Herald Square - M,13,28 St - M,R Train,19,0.4571784861904775
+13,28 St - M,14,23 St - M,R Train,20,0.46925375881927023
+14,23 St - M,15,14 St-Union Sq - M,R Train,21,0.6275532353483206
+15,14 St-Union Sq - M,16,8 St-NYU - M,R Train,22,0.6259148014553306
+16,8 St-NYU - M,17,Prince St - M,R Train,23,0.7922800295629501
+17,Prince St - M,18,Canal St - M,R Train,24,0.6347656251393466
+18,Canal St - M,20,City Hall - M,R Train,25,0.8212783565906973
+20,City Hall - M,21,Cortlandt St - M,R Train,26,0.4484050024240077
+21,Cortlandt St - M,22,Rector St - M,R Train,27,0.43012272349080594
+22,Rector St - M,23,Whitehall St-South Ferry - M,R Train,28,0.4605038899691936
+23,Whitehall St-South Ferry - M,24,Court St - Bk,R Train,29,2.048870649774841
+24,Court St - Bk,25,Jay St-MetroTech - Bk,R Train,30,0.5362740617525917
+25,Jay St-MetroTech - Bk,26,DeKalb Av - Bk,R Train,31,0.3873736007316828
+26,DeKalb Av - Bk,27,Atlantic Av-Barclays Ctr - Bk,R Train,32,0.8155242225889964
+27,Atlantic Av-Barclays Ctr - Bk,28,Union St - Bk,R Train,33,0.7937493806686251
+28,Union St - Bk,29,4 Av-9 St - Bk,R Train,34,0.8421057720055204
+29,4 Av-9 St - Bk,30,Prospect Av - Bk,R Train,35,0.716607431011404
+30,Prospect Av - Bk,31,25 St - Bk,R Train,36,0.7106323511016721
+31,25 St - Bk,32,36 St - Bk,R Train,37,0.7437428696151631
+32,36 St - Bk,33,45 St - Bk,R Train,38,0.879074686065302
+33,45 St - Bk,34,53 St - Bk,R Train,39,0.5483298818879069
+34,53 St - Bk,35,59 St - Bk,R Train,40,0.5246535699682857
+35,59 St - Bk,36,Bay Ridge Av - Bk,R Train,41,0.8489475516108433
+36,Bay Ridge Av - Bk,37,77 St - Bk,R Train,42,0.6082367501261452
+37,77 St - Bk,38,86 St - Bk,R Train,43,0.8214702957065131
+38,86 St - Bk,39,Bay Ridge-95 St - Bk,R Train,44,0.7060841839993599
+1,Astoria-Ditmars Blvd - Q,2,Astoria Blvd - Q,W Train,1,0.7221869355062508
+2,Astoria Blvd - Q,3,30 Av - Q,W Train,2,0.49336625839797943
+3,30 Av - Q,4,Broadway - Q,W Train,3,0.6474541512006545
+4,Broadway - Q,5,36 Av - Q,W Train,4,0.6545430743229531
+5,36 Av - Q,6,39 Av - Q,W Train,5,0.511796227657714
+6,39 Av - Q,461,Queensboro Plaza - Q,W Train,6,0.6774302980812341
+461,Queensboro Plaza - Q,7,Lexington Av/59 St - M,W Train,7,2.645196731867001
+7,Lexington Av/59 St - M,8,5 Av/59 St - M,W Train,8,0.5658506020401374
+8,5 Av/59 St - M,9,57-7 Av - M,W Train,9,0.6159399172983318
+9,57-7 Av - M,10,49 St - M,W Train,10,0.6053520673232845
+10,49 St - M,11,Times Sq-42 St - M,W Train,11,0.62175834559399
+11,Times Sq-42 St - M,12,34 St-Herald Sq - M,W Train,12,0.5765207115821285
+12,34 St-Herald Sq - M,13,28 St - M,W Train,13,0.4571784861904775
+13,28 St - M,14,23 St - M,W Train,14,0.46925375881927023
+14,23 St - M,15,14 St-Union Sq - M,W Train,15,0.6275532353483206
+15,14 St-Union Sq - M,16,8 St-NYU - M,W Train,16,0.6259148014553306
+16,8 St-NYU - M,17,Prince St - M,W Train,17,0.7922800295629501
+17,Prince St - M,18,Canal St - M,W Train,18,0.6347656251393466
+18,Canal St - M,20,City Hall - M,W Train,19,0.8212783565906973
+20,City Hall - M,21,Cortlandt St - M,W Train,20,0.4484050024240077
+21,Cortlandt St - M,22,Rector St - M,W Train,21,0.43012272349080594
+22,Rector St - M,23,Whitehall St-South Ferry - M,W Train,22,0.4605038899691936
+278,Jamaica Center-Parsons/Archer - Q,279,Sutphin Blvd-Archer Av-JFK Airport - Q,Z Train,1,0.6070691939628206
+279,Sutphin Blvd-Archer Av-JFK Airport - Q,80,121 St - Q,Z Train,2,1.713399110786018
+80,121 St - Q,82,104 St - Q,Z Train,3,1.4753836483372658
+82,104 St - Q,83,Woodhaven Blvd - Q,Z Train,4,0.6277370394340964
+83,Woodhaven Blvd - Q,85,75 St-Elderts Ln - Q,Z Train,5,1.3425224526808206
+85,75 St-Elderts Ln - Q,87,Crescent St - Bk,Z Train,6,1.0636055195283047
+87,Crescent St - Bk,88,Norwood Av - Bk,Z Train,7,0.5634326125721976
+88,Norwood Av - Bk,90,Van Siclen Av - Bk,Z Train,8,1.0520004166289636
+90,Van Siclen Av - Bk,91,Alabama Av - Bk,Z Train,9,0.5985401832033878
+91,Alabama Av - Bk,92,Broadway Junction - Bk,Z Train,10,0.5671675986074493
+92,Broadway Junction - Bk,93,Chauncey St - Bk,Z Train,11,0.6274851436384327
+93,Chauncey St - Bk,95,Gates Av - Bk,Z Train,12,1.2463801785943809
+95,Gates Av - Bk,97,Myrtle Av - Bk,Z Train,13,1.4084338206710465
+97,Myrtle Av - Bk,101,Marcy Av - Bk,Z Train,14,2.2379368437941443
+101,Marcy Av - Bk,102,Delancey St Essex St - M,Z Train,15,2.7355610680945315
+102,Delancey St Essex St - M,103,Bowery - M,Z Train,16,0.5880422360320726
+103,Bowery - M,104,Canal St - M,Z Train,17,0.5593980105667857
+104,Canal St - M,105,Chambers St - M,Z Train,18,0.6149655759847954
+105,Chambers St - M,106,Fulton St - M,Z Train,19,0.4753498572913891
+106,Fulton St - M,107,Broad St - M,Z Train,20,0.5230812408972849
