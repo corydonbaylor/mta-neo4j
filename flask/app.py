@@ -1,14 +1,24 @@
 from flask import Flask, request, render_template
 from neo4j import GraphDatabase
 from fuzzywuzzy import process
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
 
-# Neo4j connection details
-URI = "bolt://localhost:7687"
-USER = "neo4j"
-PASSWORD = "password"
+# Access Neo4j credentials from environment variables
+URI = os.getenv('NEO4J_URI')
+USER = os.getenv('NEO4J_USER')
+PASSWORD = os.getenv('NEO4J_PASSWORD')
 
+# Debug print statements
+print(f"URI: {URI}")
+print(f"USER: {USER}")
+print(f"PASSWORD: {PASSWORD}")
+
+# Create Neo4j driver
 driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
 
 def load_stations_from_file(filename='stations.txt'):
