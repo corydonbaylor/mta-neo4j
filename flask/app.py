@@ -13,11 +13,6 @@ URI = os.getenv('NEO4J_URI')
 USER = os.getenv('NEO4J_USER')
 PASSWORD = os.getenv('NEO4J_PASSWORD')
 
-# Debug print statements
-print(f"URI: {URI}")
-print(f"USER: {USER}")
-print(f"PASSWORD: {PASSWORD}")
-
 # Create Neo4j driver
 driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
 
@@ -36,7 +31,11 @@ def get_shortest_path(tx, start_station, end_station):
       relationshipWeightProperty: 'length'
     })
     YIELD path
-    RETURN [node in nodes(path) | node.name] AS stations
+    RETURN [node in nodes(path) | {
+      name: node.name,
+      latitude: node.latitude,
+      longitude: node.longitude
+    }] AS stations
     """
     result = tx.run(query, start_name=start_station, end_name=end_station)
     return result.single()
@@ -46,7 +45,7 @@ def get_station_suggestions(input_name, limit=5):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('map_index.html')
 
 @app.route('/shortest_path', methods=['GET'])
 def shortest_path():
@@ -54,25 +53,26 @@ def shortest_path():
     end = request.args.get('end')
     
     if not start or not end:
-        return render_template('index.html', error="Please provide both start and end stations")
+        return render_template('map_index.html', error="Please provide both start and end stations")
 
     if start not in all_stations:
         start_suggestions = get_station_suggestions(start)
-        return render_template('index.html', error=f"Start station '{start}' not found", start_suggestions=start_suggestions)
+        return render_template('map_index.html', error=f"Start station '{start}' not found", start_suggestions=start_suggestions)
     
     if end not in all_stations:
         end_suggestions = get_station_suggestions(end)
-        return render_template('index.html', error=f"End station '{end}' not found", end_suggestions=end_suggestions)
+        return render_template('map_index.html', error=f"End station '{end}' not found", end_suggestions=end_suggestions)
     
     with driver.session() as session:
         result = session.read_transaction(get_shortest_path, start, end)
     
     if result:
-        return render_template('index.html', result={
-            "stations": result["stations"]
-        })
+        return render_template('map.html', 
+                               start_station=start, 
+                               end_station=end, 
+                               stations=result["stations"])
     else:
-        return render_template('index.html', error="No path found between the specified stations")
+        return render_template('map_index.html', error="No path found between the specified stations")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(host='0.0.0.0', port=5001)

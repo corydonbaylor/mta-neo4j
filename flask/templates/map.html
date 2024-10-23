@@ -1,0 +1,54 @@
+{% extends "map_base.html" %}
+
+{% block title %}Subway Route Map{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        #map { height: 600px; width: 100%; }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <h2 class="mt-4">Route from {{ start_station }} to {{ end_station }}</h2>
+    <div id="map"></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function setInitialMapZoom() {
+        var viewportWidth = window.innerWidth;
+        if (viewportWidth < 600) {
+            return 10; // Zoom level for small screens
+        } else if (viewportWidth >= 600 && viewportWidth < 1200) {
+            return 12; // Zoom level for medium screens
+        } else {
+            return 14; // Zoom level for large screens
+        }
+    }
+
+    var stations = {{ stations|tojson|safe }};
+    var map = L.map('map', {
+        center: [40.7128, -74.0060],
+        zoom: setInitialMapZoom()
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 20
+    }).addTo(map);
+
+    var latlngs = [];
+    stations.forEach(function(station) {
+        L.marker([station.latitude, station.longitude])
+            .addTo(map)
+            .bindPopup(station.name);
+        latlngs.push([station.latitude, station.longitude]);
+    });
+
+    L.polyline(latlngs, {color: 'red'}).addTo(map);
+    map.fitBounds(L.latLngBounds(latlngs));
+</script>
+{% endblock %}
