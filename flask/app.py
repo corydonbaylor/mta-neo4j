@@ -45,7 +45,7 @@ def get_station_suggestions(input_name, limit=5):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('map_index.html')
 
 @app.route('/shortest_path', methods=['GET'])
 def shortest_path():
@@ -53,15 +53,15 @@ def shortest_path():
     end = request.args.get('end')
     
     if not start or not end:
-        return render_template('index.html', error="Please provide both start and end stations")
+        return render_template('map_index.html', error="Please provide both start and end stations")
 
     if start not in all_stations:
         start_suggestions = get_station_suggestions(start)
-        return render_template('index.html', error=f"Start station '{start}' not found", start_suggestions=start_suggestions)
+        return render_template('map_index.html', error=f"Start station '{start}' not found", start_suggestions=start_suggestions)
     
     if end not in all_stations:
         end_suggestions = get_station_suggestions(end)
-        return render_template('index.html', error=f"End station '{end}' not found", end_suggestions=end_suggestions)
+        return render_template('map_index.html', error=f"End station '{end}' not found", end_suggestions=end_suggestions)
     
     with driver.session() as session:
         result = session.read_transaction(get_shortest_path, start, end)
@@ -72,7 +72,7 @@ def shortest_path():
                                end_station=end, 
                                stations=result["stations"])
     else:
-        return render_template('index.html', error="No path found between the specified stations")
+        return render_template('map_index.html', error="No path found between the specified stations")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(host='0.0.0.0', port=5001)
