@@ -13,11 +13,6 @@ URI = os.getenv('NEO4J_URI')
 USER = os.getenv('NEO4J_USER')
 PASSWORD = os.getenv('NEO4J_PASSWORD')
 
-# Debug print statements
-print(f"URI: {URI}")
-print(f"USER: {USER}")
-print(f"PASSWORD: {PASSWORD}")
-
 # Create Neo4j driver
 driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
 
@@ -31,12 +26,16 @@ def get_shortest_path(tx, start_station, end_station):
     query = """
     MATCH (start:Station {name: $start_name}), (end:Station {name: $end_name})
     CALL gds.shortestPath.dijkstra.stream('subway_graph', {
-      sourceNode: id(start),
-      targetNode: id(end),
-      relationshipWeightProperty: 'length'
+    sourceNode: start,
+    targetNode: end,
+    relationshipWeightProperty: 'length'
     })
     YIELD path
-    RETURN [node in nodes(path) | node.name] AS stations
+    RETURN [node in nodes(path) | {
+    name: node.name,
+    latitude: node.latitude,
+    longitude: node.longitude
+    }] AS stations
     """
     result = tx.run(query, start_name=start_station, end_name=end_station)
     return result.single()
@@ -68,9 +67,10 @@ def shortest_path():
         result = session.read_transaction(get_shortest_path, start, end)
     
     if result:
-        return render_template('index.html', result={
-            "stations": result["stations"]
-        })
+        return render_template('map.html', 
+                               start_station=start, 
+                               end_station=end, 
+                               stations=result["stations"])
     else:
         return render_template('index.html', error="No path found between the specified stations")
 
