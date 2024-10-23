@@ -26,15 +26,15 @@ def get_shortest_path(tx, start_station, end_station):
     query = """
     MATCH (start:Station {name: $start_name}), (end:Station {name: $end_name})
     CALL gds.shortestPath.dijkstra.stream('subway_graph', {
-    sourceNode: start,
-    targetNode: end,
-    relationshipWeightProperty: 'length'
+      sourceNode: id(start),
+      targetNode: id(end),
+      relationshipWeightProperty: 'length'
     })
     YIELD path
     RETURN [node in nodes(path) | {
-    name: node.name,
-    latitude: node.latitude,
-    longitude: node.longitude
+      name: node.name,
+      latitude: node.latitude,
+      longitude: node.longitude
     }] AS stations
     """
     result = tx.run(query, start_name=start_station, end_name=end_station)
